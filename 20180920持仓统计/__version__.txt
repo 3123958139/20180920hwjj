@@ -1,0 +1,4 @@
+20190920T09:10:00
+待修复：
+1、mysql表的字段名的修改，如由BCC_qty改为qty_BCC
+2、对mysql的BASE_DATA表，如火币的HIT有100的持仓，而holding、price都为零还入库呢，需要梳理底层的逻辑
