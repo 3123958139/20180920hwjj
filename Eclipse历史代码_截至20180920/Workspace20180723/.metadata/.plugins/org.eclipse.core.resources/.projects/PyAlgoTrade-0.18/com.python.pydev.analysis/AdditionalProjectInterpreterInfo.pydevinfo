@@ -1,0 +1,60 @@
+-- VERSION_5
+-- START DISKCACHE_2
+E:\Workspace20180723\.metadata\.plugins\org.eclipse.core.resources\.projects\PyAlgoTrade-0.18\com.python.pydev.analysis\v2_indexcache
+NDayHighLow|1536464049111667000|E:\Workspace20180723\PyAlgoTrade-0.18\src\NDayHighLow.py
+BBands|1535736088329094000|E:\Workspace20180723\PyAlgoTrade-0.18\src\BBands.py
+test|1535094027425327000|E:\Workspace20180723\PyAlgoTrade-0.18\src\test.py
+DualThrust|1535938714012199000|E:\Workspace20180723\PyAlgoTrade-0.18\src\DualThrust.py
+RBreaker|1536392793372534000|E:\Workspace20180723\PyAlgoTrade-0.18\src\RBreaker.py
+-- END DISKCACHE
+-- START DICTIONARY
+19
+7=E:\Workspace20180723\PyAlgoTrade-0.18\src\RBreaker.py
+4=test
+11=BBands.__init__
+5=E:\Workspace20180723\PyAlgoTrade-0.18\src\DualThrust.py
+9=E:\Workspace20180723\PyAlgoTrade-0.18\src\NDayHighLow.py
+15=myStrategy.__init__
+16=close_above_sma
+18=DualThrust.onEnterCanceled
+10=NDayHighLow
+14=DualThrust.onBars
+19=DualThrust.onExitOk
+2=BBands
+6=DualThrust
+13=close_above_sma.__init__
+3=E:\Workspace20180723\PyAlgoTrade-0.18\src\test.py
+1=E:\Workspace20180723\PyAlgoTrade-0.18\src\BBands.py
+12=DualThrust.__init__
+17=myStrategy
+8=RBreaker
+-- END DICTIONARY
+-- START TREE 1
+6
+bba|1|BBands!1^29#7*17@
+clo|1|close_above_sma!3^34#7*33@
+dua|2|DualThrust!5^40#7*49@DualThrust!7^47#7*65@
+mai|5|main!3^70#5*34@main!1^63#5*18@mainPlot!9^77#5*82@main!7^197#5*66@main!5^134#5*50@
+mys|2|mysqlToCsv!9^25#5*82@myStrategy!9^50#7*81@
+sql|4|sql_to_csv!5^15#5*50@sql_to_csv!7^22#5*66@sql_to_csv!1^11#5*18@sql_to_csv!3^16#5*34@
+-- END TREE
+-- START TREE 2
+17
+__b|4|__bbands!11&1^39#9*19@__buyposition!12&5^62#9*51@__buyposition!12&7^70#9*67@__broker!12&7^79#9*67@
+__c|4|__close!12&5^53#9*51@__close!12&7^61#9*67@__cash!12&7^78#9*67@__close!13&3^43#9*35@
+__d|2|__datetime!12&7^77#9*67@__datetime!14&7^180#13*67@
+__h|3|__high!15&9^54#9*83@__high!12&5^51#9*51@__high!12&7^59#9*67@
+__i|10|__init__!6&5^45#9*50@__instrument!11&1^37#9*19@__init__!6&7^53#9*66@__instrument!12&5^49#9*51@__instrument!12&7^57#9*67@__init__!16&3^38#9*34@__instrument!15&9^53#9*83@__init__!17&9^51#9*82@__init__!2&1^33#9*18@__instrument!13&3^42#9*35@
+__k|4|__k2!12&5^56#9*51@__k1!12&7^63#9*67@__k2!12&7^64#9*67@__k1!12&5^55#9*51@
+__l|5|__lots!12&5^59#9*51@__low!12&5^52#9*51@__low!12&7^60#9*67@__lots!12&7^67#9*67@__low!15&9^55#9*83@
+__m|2|__mday!12&5^57#9*51@__mday!12&7^65#9*67@
+__n|4|__ncp5!17&9^60#9*82@__ncp55!17&9^63#9*82@__nday!12&7^66#9*67@__nday!12&5^58#9*51@
+__o|4|__open!12&5^50#9*51@__offset!12&5^60#9*51@__open!12&7^58#9*67@__offset!12&7^68#9*67@
+__p|4|__price!12&7^76#9*67@__price!14&7^179#13*67@__position!18&7^121#9*67@__position!19&7^128#9*67@
+__s|5|__sellposition!12&7^71#9*67@__sellposition!12&5^63#9*51@__sma5!12&7^73#9*67@__sma20!12&7^74#9*67@__sma!13&3^44#9*35@
+cou|1|counter!15&9^58#9*83@
+get|12|get_sell_position!6&5^80#9*50@getBollingerBands!2&1^41#9*18@get_sma20!6&7^107#9*66@get_high!6&7^82#9*66@get_buy_position!6&7^92#9*66@get_low!6&5^70#9*50@get_high!6&5^65#9*50@get_low!6&7^87#9*66@getSma!16&3^46#9*34@get_buy_position!6&5^75#9*50@get_sell_position!6&7^97#9*66@get_sma5!6&7^102#9*66@
+ncp|2|ncp55!15&9^57#9*83@ncp5!15&9^56#9*83@
+onb|5|onBars!17&9^66#9*82@onBars!2&1^46#9*18@onBars!6&5^85#9*50@onBars!6&7^135#9*66@onBars!16&3^51#9*34@
+one|4|onEnterOk!6&7^112#9*66@onExitCanceled!6&7^130#9*66@onEnterCanceled!6&7^118#9*66@onExitOk!6&7^123#9*66@
+-- END TREE

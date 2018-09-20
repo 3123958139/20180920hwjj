@@ -1,0 +1,12 @@
+MODULES_MANAGER_V2
+price_warning|E:\Workspace20180723\OKExAPI\src\price_warning.py
+python.Client|E:\Workspace20180723\OKExAPI\src\python\Client.py
+python.HttpMD5Util|E:\Workspace20180723\OKExAPI\src\python\HttpMD5Util.py
+python.OkcoinFutureAPI|E:\Workspace20180723\OKExAPI\src\python\OkcoinFutureAPI.py
+python.OkcoinSpotAPI|E:\Workspace20180723\OKExAPI\src\python\OkcoinSpotAPI.py
+test|E:\Workspace20180723\OKExAPI\src\test.py
+token_watching.david_http|E:\Workspace20180723\OKExAPI\src\token_watching\david_http.py
+token_watching.david_okex_http|E:\Workspace20180723\OKExAPI\src\token_watching\david_okex_http.py
+token_watching.david_okexft_http|E:\Workspace20180723\OKExAPI\src\token_watching\david_okexft_http.py
+token_watching.david_qyapi_weixin|E:\Workspace20180723\OKExAPI\src\token_watching\david_qyapi_weixin.py
+token_watching.token_watching|E:\Workspace20180723\OKExAPI\src\token_watching\token_watching.py

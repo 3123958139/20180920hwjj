@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//src/price_warning.py=utf-8
+encoding//src/python/Client.py=utf-8
+encoding//src/python/HttpMD5Util.py=utf-8
+encoding//src/python/OkcoinFutureAPI.py=utf-8
+encoding//src/python/OkcoinSpotAPI.py=utf-8
+encoding//src/token_watching/david_http.py=utf-8
+encoding//src/token_watching/david_okex_http.py=utf-8
+encoding//src/token_watching/david_okexft_http.py=utf-8
+encoding//src/token_watching/david_qyapi_weixin.py=utf-8
+encoding//src/token_watching/token_watching.py=utf-8

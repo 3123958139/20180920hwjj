@@ -1,0 +1,25 @@
+#!/usr/bin/python
+# -*- coding:utf-8 -*-
+# encoding:utf-8
+
+"""
+@date: 20180820
+@author: David
+"""
+
+from sqlalchemy import create_engine
+import pyalgotrade
+import datetime as dt
+import pandas as pd
+
+
+engine = create_engine(
+    "mysql+pymysql://ops:ops!@#9988@47.74.249.179:3308/david")
+with engine.connect() as con:
+    sql = """
+    select ts,open as Open,high as High,low as Low,close as Close,quantity as Volume from vic_1d.1d where symbol='BINA--BTC--USDT';
+    """
+    df = pd.read_sql(sql, con)
+    df.rename(columns={'ts': 'Date Time'}, inplace=True)
+    pyalgotrade.add
+    print(df.head(5))

@@ -1,0 +1,92 @@
+-- VERSION_5
+-- START DISKCACHE_2
+E:\Workspace20180723\.metadata\.plugins\org.eclipse.core.resources\.projects\ShowBW2\com.python.pydev.analysis\v2_indexcache
+ShowBW2|1537339404428755000|E:\Workspace20180723\ShowBW2\src\ShowBW2.py
+BW2_BASE_DATA|1537257727995950000|E:\Workspace20180723\ShowBW2\src\BW2_BASE_DATA.py
+BW1_BASE_DATA|1537257586088644000|E:\Workspace20180723\ShowBW2\src\BW1_BASE_DATA.py
+BW_SCHEDULER|1537339913005801000|E:\Workspace20180723\ShowBW2\src\BW_SCHEDULER.py
+ShowBW1|1537339384844160000|E:\Workspace20180723\ShowBW2\src\ShowBW1.py
+-- END DISKCACHE
+-- START DICTIONARY
+36
+14=ExchangeHuobi.__init__
+22=ExchangeBina.__init__
+28=ShowBW2._df
+35=ShowBW2._total_futures_usdtvalue_ratio
+1=E:\Workspace20180723\ShowBW2\src\BW_SCHEDULER.py
+8=ShowBW1
+9=E:\Workspace20180723\ShowBW2\src\ShowBW2.py
+24=ShowBW1._group
+34=ShowBW2._total_spot_usdtvalue_ratio
+21=ExchangeOkex.__init__
+29=ShowBW1.__init__
+36=ShowBW1._total_futures_usdtvalue_ratio
+18=ShowBW1._exchange_usdtvalue_ratio
+3=E:\Workspace20180723\ShowBW2\src\BW1_BASE_DATA.py
+5=E:\Workspace20180723\ShowBW2\src\BW2_BASE_DATA.py
+26=ShowBW2._currency_qty_ratio
+27=ShowBW1._df
+33=ShowBW1._total_spot_usdtvalue_ratio
+12=ExchangeBina
+4=BW1_BASE_DATA
+30=ShowBW2.__init__
+19=ShowBW2._btc_usdt
+7=E:\Workspace20180723\ShowBW2\src\ShowBW1.py
+25=ShowBW2._group
+17=ShowBW2._exchange_usdtvalue_ratio
+10=ShowBW2
+20=ShowBW1._btc_usdt
+11=ExchangeOkex
+13=ExchangeHuobi
+32=ShowBW2._total_account_usdtvalue
+6=BW2_BASE_DATA
+2=BW_SCHEDULER
+15=ShowBW1._start
+16=ShowBW2._start
+23=ShowBW1._currency_qty_ratio
+31=ShowBW1._total_account_usdtvalue
+-- END DICTIONARY
+-- START TREE 1
+9
+bw_|1|BW_SCHEDULER!1^14#5*18@
+exc|6|ExchangeOkex!3^36#7*33@ExchangeOkex!5^36#7*49@ExchangeBina!3^163#7*33@ExchangeHuobi!5^203#7*49@ExchangeHuobi!3^203#7*33@ExchangeBina!5^163#7*49@
+get|4|getBtcUsdt!3^24#5*34@getNowDateTime!3^15#5*34@getNowDateTime!5^15#5*50@getBtcUsdt!5^24#5*50@
+mai|2|main!5^257#5*50@main!3^257#5*34@
+obj|2|obj!7^161#5*67@obj!9^161#5*83@
+sch|1|scheduler!1^35#5*19@
+sho|2|ShowBW2!9^10#7*81@ShowBW1!7^10#7*65@
+ts|2|ts!3^22#1*35@ts!5^22#1*51@
+wri|2|writeBW2DataToMysql!5^316#5*50@writeBW1DataToMysql!3^316#5*34@
+-- END TREE
+-- START TREE 2
+29
+__i|8|__init__!11&5^43#9*50@__init__!12&5^164#9*50@__init__!13&5^204#9*50@__init__!11&3^43#9*34@__init__!12&3^164#9*34@__init__!13&3^204#9*34@__init__!10&9^11#9*82@__init__!8&7^11#9*66@
+__u|2|__uid!14&3^209#9*35@__uid!14&5^209#9*51@
+_bt|2|_btc_usdt!8&7^19#9*66@_btc_usdt!10&9^19#9*82@
+_co|2|_con!15&7^17#9*67@_con!16&9^17#9*83@
+_cu|2|_currency_qty_ratio!10&9^72#9*82@_currency_qty_ratio!8&7^72#9*66@
+_df|2|_df!10&9^29#9*82@_df!8&7^29#9*66@
+_en|2|_end!8&7^94#9*66@_end!10&9^94#9*82@
+_ex|2|_exchange_usdtvalue_ratio!8&7^59#9*66@_exchange_usdtvalue_ratio!10&9^59#9*82@
+_gr|2|_group!8&7^39#9*66@_group!10&9^39#9*82@
+_st|2|_start!8&7^14#9*66@_start!10&9^14#9*82@
+_to|6|_total_futures_usdtvalue_ratio!10&9^88#9*82@_total_futures_usdtvalue_ratio!8&7^88#9*66@_total_account_usdtvalue!10&9^51#9*82@_total_spot_usdtvalue_ratio!8&7^82#9*66@_total_account_usdtvalue!8&7^51#9*66@_total_spot_usdtvalue_ratio!10&9^82#9*82@
+bb0|6|bb0!11&5^55#9*50@bb0!12&5^173#9*50@bb0!13&5^214#9*50@bb0!11&3^55#9*34@bb0!12&3^173#9*34@bb0!13&3^214#9*34@
+bin|4|bina_usdtvalue!17&9^66#9*83@bina_ratio!17&9^67#9*83@bina_usdtvalue!18&7^66#9*67@bina_ratio!18&7^67#9*67@
+btc|2|btc_usdt!19&9^27#9*83@btc_usdt!20&7^27#9*67@
+con|8|conf!21&5^46#9*51@conf!22&5^165#9*51@conf!14&5^205#9*51@conf!21&3^46#9*35@conf!22&3^165#9*35@conf!14&3^205#9*35@contract_types!21&5^52#9*51@contract_types!21&3^52#9*35@
+cur|4|cur_qty_ratio!23&7^76#9*67@currency!24&7^45#9*67@currency!25&9^45#9*83@cur_qty_ratio!26&9^76#9*83@
+df|2|df!27&7^36#9*67@df!28&9^36#9*83@
+eng|2|engine!29&7^12#9*67@engine!30&9^12#9*83@
+exc|6|exch_account!21&5^51#9*51@exch_account!22&5^170#9*51@exch_account!14&5^211#9*51@exch_account!21&3^51#9*35@exch_account!22&3^170#9*35@exch_account!14&3^211#9*35@
+ft1|2|ft1!11&3^96#9*34@ft1!11&5^96#9*50@
+ft2|2|ft2!11&3^127#9*34@ft2!11&5^127#9*50@
+gro|2|group!25&9^49#9*83@group!24&7^49#9*67@
+huo|4|huobi_ratio!17&9^70#9*83@huobi_ratio!18&7^70#9*67@huobi_usdtvalue!18&7^69#9*67@huobi_usdtvalue!17&9^69#9*83@
+mai|2|main!10&9^99#9*82@main!8&7^99#9*66@
+oke|4|okex_usdtvalue!18&7^63#9*67@okex_ratio!18&7^64#9*67@okex_ratio!17&9^64#9*83@okex_usdtvalue!17&9^63#9*83@
+out|4|out_of_account_usdtvalue!31&7^54#9*67@out_of_account_usdtvalue!32&9^54#9*83@out_of_account_ratio!32&9^57#9*83@out_of_account_ratio!31&7^57#9*67@
+sta|6|stat_bina!22&5^171#9*51@stat_okex!21&3^53#9*35@stat_bina!22&3^171#9*35@stat_huobi!14&3^212#9*35@stat_huobi!14&5^212#9*51@stat_okex!21&5^53#9*51@
+tot|10|total_spot_usdtvalue!33&7^85#9*67@total_account_usdtvalue!32&9^56#9*83@total_spot_usdtvalue!34&9^85#9*83@total_futures_usdtvalue!35&9^91#9*83@total_futures_usdtvalue!36&7^91#9*67@total_spot_ratio!34&9^86#9*83@total_futures_ratio!35&9^92#9*83@total_account_usdtvalue!31&7^56#9*67@total_spot_ratio!33&7^86#9*67@total_futures_ratio!36&7^92#9*67@
+ts|2|ts!27&7^37#9*67@ts!28&9^37#9*83@
+-- END TREE

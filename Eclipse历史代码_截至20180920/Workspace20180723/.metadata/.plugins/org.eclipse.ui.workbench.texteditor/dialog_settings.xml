@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="self.__newValueEvent" key="selection"/>
+		<item value="true" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="self.__newValueEvent"/>
+			<item value="__onNewValue"/>
+			<item value="print"/>
+			<item value="HUOBIPRO"/>
+			<item value="OKEX"/>
+			<item value="BINANCE"/>
+			<item value="KRAKEN"/>
+			<item value="BITFINEX"/>
+			<item value="BITSTAMP"/>
+			<item value="retAnalyzer"/>
+			<item value="returns"/>
+			<item value="   &apos;BINA--EOS--USDT&apos;: &apos;BITSTAMP_SPOT_EOS_USD&apos;,"/>
+			<item value="’"/>
+			<item value="‘"/>
+			<item value="EOS_USD"/>
+		</list>
+		<list key="replacehistory">
+			<item value="BITFINEX"/>
+			<item value="HUOBIPRO"/>
+			<item value="OKEX"/>
+			<item value="BITSTAMP"/>
+			<item value="KRAKEN"/>
+			<item value="HUOBI"/>
+			<item value="BINANCE"/>
+			<item value="&apos;"/>
+			<item value="dt"/>
+			<item value="token_watching"/>
+			<item value="symbolHead"/>
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="300" key="DIALOG_WIDTH"/>
+		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+		<item value="410" key="DIALOG_HEIGHT"/>
+		<item value="797" key="DIALOG_X_ORIGIN"/>
+		<item value="250" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

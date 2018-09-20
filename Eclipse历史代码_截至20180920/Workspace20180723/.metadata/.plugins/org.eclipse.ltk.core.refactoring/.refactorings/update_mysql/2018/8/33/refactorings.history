@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;update_mysql/src/update_mysql&apos; to &apos;update_mysql.py&apos;" description="Rename resource &apos;update_mysql&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/update_mysql" name="update_mysql.py" stamp="1534309542377" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;update_mysql/src/Update_VIC_bak&apos; to &apos;Update_VIC_bak.py&apos;" description="Rename resource &apos;Update_VIC_bak&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Update_VIC_bak" name="Update_VIC_bak.py" stamp="1534493354140" updateReferences="true"/>
+</session>

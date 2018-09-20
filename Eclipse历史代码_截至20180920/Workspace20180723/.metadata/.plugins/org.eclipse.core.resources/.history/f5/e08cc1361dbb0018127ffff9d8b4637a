@@ -1,0 +1,30 @@
+#!/usr/bin/env python
+# coding=utf-8
+
+import pandas as pd
+from sqlalchemy import create_engine
+
+
+class ShowBW1(object):
+    def __init__(self):
+        self.engine = create_engine('mysql://ops:ops!@#9988@47.74.249.179:3308/david')
+
+    def __start(self):
+        self.__con = self.engine.connect()
+
+    def __stat(self):
+        query = """SELECT DISTINCT ts FROM david.BW1_BASE_DATA ORDER BY ts DESC LIMIT 1;
+        """
+        res = self.__con.execute(query).fetchall()
+        print(res)
+
+    def __end(self):
+        self.__con.close()
+
+    def main(self):
+        self.__start()
+        self.__end()
+
+
+if __name__ == '__main__':
+    pass

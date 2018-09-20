@@ -1,0 +1,294 @@
+"""
+@date:2018-08-24
+@author:David
+"""
+
+from pyalgotrade import plotter
+from pyalgotrade import strategy
+from pyalgotrade.bar import Frequency
+from pyalgotrade.barfeed.csvfeed import GenericBarFeed
+from pyalgotrade.broker.backtesting import TradePercentage
+from pyalgotrade.stratanalyzer import drawdown
+from pyalgotrade.stratanalyzer import returns as rets
+from pyalgotrade.stratanalyzer import sharpe
+from pyalgotrade.stratanalyzer import trades
+from pyalgotrade.technical.cross import cross_above, cross_below
+from pyalgotrade.technical.ma import SMA
+from sqlalchemy.engine import create_engine
+
+import pandas as pd
+
+
+def sql_to_csv(label=True, database='vic_5mk', table='5mk', instrument='BINA--BTC--USDT'):
+    """
+    """
+    if label:
+        try:
+            engine = create_engine(
+                'mysql+pymysql://ops:ops!@#9988@47.74.249.179:3308/david'
+            )
+            con = engine.connect()
+            sql = """select ts,high as High,open as Open,low as Low,close as Close,quantity as Volume 
+            from %s.%s where symbol='%s' and ts between '2018-05-29 08:00:00' and '2018-08-01 08:00:00' order by ts;
+            """ % (database, table, instrument)
+            df = pd.read_sql(sql, con)
+            df.rename(columns={'ts': 'Date Time'}, inplace=True)
+            df['Adj Close'] = df['Close']
+            df.to_csv(instrument + '.csv', index=False)
+            con.close()
+            return instrument
+        except Exception as e:
+            print(e)
+            return
+    else:
+        return instrument
+
+
+class DualThrust(strategy.BacktestingStrategy):
+    """
+    Reference:https://www.v2ex.com/t/360405
+    TB Code:http://blog.sina.com.cn/s/blog_53f0769d0102x1zq.html
+    """
+
+    def __init__(self, feed, instrument):
+        """
+        """
+        super(DualThrust, self).__init__(feed)
+        self.__instrument = instrument
+        self.__open = feed[instrument].getOpenDataSeries()
+        self.__high = feed[instrument].getHighDataSeries()
+        self.__low = feed[instrument].getLowDataSeries()
+        self.__close = feed[instrument].getCloseDataSeries()
+        # 策略参数
+        self.__k1 = 0.5
+        self.__k2 = 0.5
+        self.__mday = 1
+        self.__nday = 1
+        self.__lots = 5
+        self.__offset = 0
+        # 用于存储上下轨数据
+        self.__buyposition = []
+        self.__sellposition = []
+        # sma
+        self.__sma5 = SMA(self.__close, 5)
+        self.__sma20 = SMA(self.__close, 55)
+        # 设置手续费
+        self.__price = None
+        self.__datetime = None
+        self.__cash = self.getBroker().getCash()
+        self.__broker = self.getBroker()
+        self.__broker.setCommission(TradePercentage(0.003))
+
+    def get_high(self):
+        """
+        """
+        return self.__high
+
+    def get_low(self):
+        """
+        """
+        return self.__low
+
+    def get_buy_position(self):
+        """
+        """
+        return self.__buyposition
+
+    def get_sell_position(self):
+        """
+        """
+        return self.__sellposition
+
+    def get_sma5(self):
+        """
+        """
+        return self.__sma5
+
+    def get_sma20(self):
+        """
+        """
+        return self.__sma20
+
+    def onEnterOk(self, position):
+        """
+        """
+        execInfo = position.getEntryOrder().getExecutionInfo()
+        self.info("BUY at $%.2f" % (execInfo.getPrice()))
+
+    def onEnterCanceled(self, position):
+        """
+        """
+        self.__position = None
+
+    def onExitOk(self, position):
+        """
+        """
+        execInfo = position.getExitOrder().getExecutionInfo()
+        self.info("SELL at $%.2f" % (execInfo.getPrice()))
+        self.__position = None
+
+    def onExitCanceled(self, position):
+        """
+        """
+        self.__position.exitMarket()
+
+    def onBars(self, bars):
+        """
+        """
+        if len(self.__high) < max(self.__mday, self.__nday) + 1:
+            return
+
+        bar = bars[self.__instrument]
+
+        hh = max(self.__high[-self.__mday - 1:-1])
+        hc = max(self.__close[-self.__mday - 1:-1])
+        ll = min(self.__low[-self.__mday - 1:-1])
+        lc = min(self.__close[-self.__mday - 1:-1])
+
+        buyrange = max((hh - lc), (hc - ll))
+
+        hh = max(self.__high[-self.__nday - 1:-1])
+        hc = max(self.__close[-self.__nday - 1:-1])
+        ll = min(self.__low[-self.__nday - 1:-1])
+        lc = min(self.__close[-self.__nday - 1:-1])
+
+        sellrange = max((hh - lc), (hc - ll))
+
+        buytrig = self.__k1 * buyrange
+        selltrig = self.__k2 * sellrange
+
+        buyposition = bar.getOpen() + buytrig
+        sellposition = bar.getOpen() - selltrig
+
+        self.__buyposition.append(buyposition)
+        self.__sellposition.append(sellposition)
+
+        # 当价格向上突破上轨时，如果当时持有空仓，则先平仓，再开多仓；如果没有仓位，则直接开多仓；
+        # 当价格向下突破下轨时，如果当时持有多仓，则先平仓，再开空仓；如果没有仓位，则直接开空仓；
+        shares = self.getBroker().getShares(self.__instrument)
+#         if shares == 0 and cross_above(self.__sma5, self.__sma20):
+#             self.marketOrder(self.__instrument, 1)
+#         if shares == 0 and cross_below(self.__sma5, self.__sma20):
+#             self.marketOrder(self.__instrument, -1)
+#         if shares > 0 and cross_below(self.__sma5, self.__sma20):
+#             self.marketOrder(self.__instrument, -2)
+#         if shares < 0 and cross_above(self.__sma5, self.__sma20):
+#             self.marketOrder(self.__instrument, 2)
+        if shares == 0 and bar.getHigh() >= buyposition and hh / ll > 1.01:
+            self.marketOrder(self.__instrument, 1)
+            self.__price = buyposition
+            self.__datetime = bar.getDateTime()
+        elif shares == 0 and bar.getLow() <= sellposition and hh / ll > 1.01:
+            self.marketOrder(self.__instrument, -1)
+            self.__price = sellposition
+            self.__datetime = bar.getDateTime()
+        elif shares > 0 and bar.getLow() <= sellposition and hh / ll > 1.01:
+            if abs(sellposition / self.__price - 1) > 0.06:
+                self.marketOrder(self.__instrument, -2)
+                self.__price = sellposition
+                self.__datetime = bar.getDateTime()
+        elif shares < 0 and bar.getHigh() >= buyposition and hh / ll > 1.01:
+            if abs(buyposition / self.__price - 1) > 0.06:
+                self.marketOrder(self.__instrument, 2)
+                self.__price = buyposition
+                self.__datetime = bar.getDateTime()
+
+
+def main(plot):
+    """
+    """
+    #=========================================================================
+    # 输入
+    #=========================================================================
+    instrument = 'BINA--ETH--USDT'
+    sql_to_csv(label=True, database='vic_1h',
+               table='1h', instrument=instrument)
+    feed = GenericBarFeed(Frequency.HOUR, None, None)
+    feed.addBarsFromCSV(instrument, instrument + '.csv')
+    #=========================================================================
+    # 输出
+    #=========================================================================
+    myStrategy = DualThrust(feed, instrument)
+    retAnalyzer = rets.Returns()
+    myStrategy.attachAnalyzer(retAnalyzer)
+    sharpeRatioAnalyzer = sharpe.SharpeRatio()
+    myStrategy.attachAnalyzer(sharpeRatioAnalyzer)
+    drawDownAnalyzer = drawdown.DrawDown()
+    myStrategy.attachAnalyzer(drawDownAnalyzer)
+    tradesAnalyzer = trades.Trades()
+    myStrategy.attachAnalyzer(tradesAnalyzer)
+    if plot:
+        plt = plotter.StrategyPlotter(myStrategy, True, True, True)
+#         plt.getInstrumentSubplot(instrument).addDataSeries(
+#             "High", myStrategy.get_high())
+#         plt.getInstrumentSubplot(instrument).addDataSeries(
+#             "Low", myStrategy.get_low())
+#         plt.getInstrumentSubplot(instrument).addDataSeries(
+#             "BuyPosition", myStrategy.get_buy_position())
+#         plt.getInstrumentSubplot(instrument).addDataSeries(
+#             "SellPosition", myStrategy.get_sell_position())
+        plt.getInstrumentSubplot(instrument).addDataSeries(
+            "sma5", myStrategy.get_sma5())
+        plt.getInstrumentSubplot(instrument).addDataSeries(
+            "sma20", myStrategy.get_sma20())
+    myStrategy.run()
+    #=========================================================================
+    # 评价指标
+    #=========================================================================
+    print("Final portfolio value: $%.2f" % myStrategy.getResult())
+    print("Cumulative returns: %.2f %%" %
+          (retAnalyzer.getCumulativeReturns()[-1] * 100))
+    print("Sharpe ratio: %.2f" % (sharpeRatioAnalyzer.getSharpeRatio(0.05)))
+    print("Max. drawdown: %.2f %%" % (drawDownAnalyzer.getMaxDrawDown() * 100))
+    print("Longest drawdown duration: %s" %
+          (drawDownAnalyzer.getLongestDrawDownDuration()))
+
+    print()
+    print("Total trades: %d" % (tradesAnalyzer.getCount()))
+    if tradesAnalyzer.getCount() > 0:
+        profits = tradesAnalyzer.getAll()
+        print("Avg. profit: $%2.f" % (profits.mean()))
+        print("Profits std. dev.: $%2.f" % (profits.std()))
+        print("Max. profit: $%2.f" % (profits.max()))
+        print("Min. profit: $%2.f" % (profits.min()))
+        returns = tradesAnalyzer.getAllReturns()
+        print("Avg. return: %2.f %%" % (returns.mean() * 100))
+        print("Returns std. dev.: %2.f %%" % (returns.std() * 100))
+        print("Max. return: %2.f %%" % (returns.max() * 100))
+        print("Min. return: %2.f %%" % (returns.min() * 100))
+
+    print()
+    print("Profitable trades: %d" % (tradesAnalyzer.getProfitableCount()))
+    if tradesAnalyzer.getProfitableCount() > 0:
+        profits = tradesAnalyzer.getProfits()
+        print("Avg. profit: $%2.f" % (profits.mean()))
+        print("Profits std. dev.: $%2.f" % (profits.std()))
+        print("Max. profit: $%2.f" % (profits.max()))
+        print("Min. profit: $%2.f" % (profits.min()))
+        returns = tradesAnalyzer.getPositiveReturns()
+        print("Avg. return: %2.f %%" % (returns.mean() * 100))
+        print("Returns std. dev.: %2.f %%" % (returns.std() * 100))
+        print("Max. return: %2.f %%" % (returns.max() * 100))
+        print("Min. return: %2.f %%" % (returns.min() * 100))
+
+    print()
+    print("Unprofitable trades: %d" % (tradesAnalyzer.getUnprofitableCount()))
+    if tradesAnalyzer.getUnprofitableCount() > 0:
+        losses = tradesAnalyzer.getLosses()
+        print("Avg. loss: $%2.f" % (losses.mean()))
+        print("Losses std. dev.: $%2.f" % (losses.std()))
+        print("Max. loss: $%2.f" % (losses.min()))
+        print("Min. loss: $%2.f" % (losses.max()))
+        returns = tradesAnalyzer.getNegativeReturns()
+        print("Avg. return: %2.f %%" % (returns.mean() * 100))
+        print("Returns std. dev.: %2.f %%" % (returns.std() * 100))
+        print("Max. return: %2.f %%" % (returns.max() * 100))
+        print("Min. return: %2.f %%" % (returns.min() * 100))
+    #=========================================================================
+    # 画净值图
+    #=========================================================================
+    plt.plot()
+
+
+if __name__ == "__main__":
+    main(True)

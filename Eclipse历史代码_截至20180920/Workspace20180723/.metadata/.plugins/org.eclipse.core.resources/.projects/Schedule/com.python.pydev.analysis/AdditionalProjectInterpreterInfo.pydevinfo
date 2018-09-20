@@ -1,0 +1,93 @@
+-- VERSION_5
+-- START DISKCACHE_2
+E:\Workspace20180723\.metadata\.plugins\org.eclipse.core.resources\.projects\Schedule\com.python.pydev.analysis\v2_indexcache
+PrintNetValue|1536157112145645000|E:\Workspace20180723\Schedule\src\PrintNetValue.py
+UpdateMySQLApScheduler|1535446278743476000|E:\Workspace20180723\Schedule\src\UpdateMySQLApScheduler.py
+coinapi_v1|1535442950346326000|E:\Workspace20180723\Schedule\src\coinapi_v1.py
+-- END DISKCACHE
+-- START DICTIONARY
+44
+9=ExchangeRatesGetSpecificRateRequest
+11=OHLCVLatestDataRequest
+12=TradesLatestDataAllRequest
+15=TradesLatestDataSymbolRequest
+7=OHLCVHistoricalDataRequest
+34=OHLCVLatestDataRequest.__init__
+10=ExchangeRatesGetAllCurrentRates
+6=UpdateMySQLApScheduler
+16=CoinAPIv1
+13=OrderbooksCurrentDataSymbolRequest
+30=QuotesCurrentDataAllRequest
+14=QuotesHistoricalData
+41=OrderbooksLatestDataRequest.__init__
+27=MetadataListExchangesRequest
+3=E:\Workspace20180723\Schedule\src\PrintNetValue.py
+5=E:\Workspace20180723\Schedule\src\UpdateMySQLApScheduler.py
+23=CoinAPIv1.__init__
+25=ExchangeRatesGetAllCurrentRates.__init__
+19=OrderbooksLatestDataRequest
+43=QuotesCurrentDataSymbolRequest.__init__
+8=HTTPClient
+32=HTTPClient.__init__
+20=QuotesCurrentDataSymbolRequest
+38=TradesHistoricalDataRequest.__init__
+40=QuotesLatestDataSymbolRequest.__init__
+24=ExchangeRatesGetSpecificRateRequest.__init__
+26=MetadataListAssetsRequest
+29=OHLCVListAllPeriodsRequest
+33=QuotesHistoricalData.__init__
+39=QuotesLatestDataAllRequest.__init__
+31=OrderbooksCurrentDataAllRequest
+42=OrderbooksHistoricalDataRequest.__init__
+2=coinapi_v1
+1=E:\Workspace20180723\Schedule\src\coinapi_v1.py
+17=OrderbooksHistoricalDataRequest
+22=QuotesLatestDataSymbolRequest
+44=OrderbooksCurrentDataSymbolRequest.__init__
+18=TradesHistoricalDataRequest
+37=TradesLatestDataSymbolRequest.__init__
+21=QuotesLatestDataAllRequest
+36=TradesLatestDataAllRequest.__init__
+4=PrintNetValue
+35=OHLCVHistoricalDataRequest.__init__
+28=MetadataListSymbolsRequest
+-- END DICTIONARY
+-- START TREE 1
+12
+coi|1|CoinAPIv1!1^175#7*17@
+exc|2|ExchangeRatesGetSpecificRateRequest!1^45#7*17@ExchangeRatesGetAllCurrentRates!1^59#7*17@
+htt|1|HTTPClient!1^8#7*17@
+met|3|MetadataListExchangesRequest!1^33#7*17@MetadataListAssetsRequest!1^37#7*17@MetadataListSymbolsRequest!1^41#7*17@
+my_|1|my_job!3^13#5*34@
+ohl|3|OHLCVLatestDataRequest!1^70#7*17@OHLCVListAllPeriodsRequest!1^66#7*17@OHLCVHistoricalDataRequest!1^78#7*17@
+ord|4|OrderbooksHistoricalDataRequest!1^167#7*17@OrderbooksCurrentDataAllRequest!1^148#7*17@OrderbooksLatestDataRequest!1^159#7*17@OrderbooksCurrentDataSymbolRequest!1^152#7*17@
+pro|1|PRODUCTION_URL!1^6#1*19@
+quo|5|QuotesCurrentDataAllRequest!1^109#7*17@QuotesLatestDataSymbolRequest!1^127#7*17@QuotesLatestDataAllRequest!1^120#7*17@QuotesHistoricalData!1^140#7*17@QuotesCurrentDataSymbolRequest!1^113#7*17@
+sch|2|sched!3^9#1*35@scheduler!5^20#5*51@
+tra|3|TradesHistoricalDataRequest!1^101#7*17@TradesLatestDataSymbolRequest!1^93#7*17@TradesLatestDataAllRequest!1^86#7*17@
+upd|1|UpdateMySQLSchedule!5^14#5*50@
+-- END TREE
+-- START TREE 2
+21
+__i|16|__init__!7&1^79#9*18@__init__!8&1^9#9*18@__init__!9&1^46#9*18@__init__!10&1^60#9*18@__init__!11&1^71#9*18@__init__!12&1^87#9*18@__init__!13&1^153#9*18@__init__!14&1^141#9*18@__init__!15&1^94#9*18@__init__!16&1^179#9*18@__init__!17&1^168#9*18@__init__!18&1^102#9*18@__init__!19&1^160#9*18@__init__!20&1^114#9*18@__init__!21&1^121#9*18@__init__!22&1^128#9*18@
+api|1|api_key!23&1^180#9*19@
+ass|3|asset_id_quote!24&1^51#9*19@asset_id_base!24&1^50#9*19@asset_id_base!25&1^61#9*19@
+cli|1|client_class!23&1^183#9*19@
+def|1|DEFAULT_HEADERS!16&1^178#5*19@
+end|20|endpoint!26&1^38#9*18@endpoint!27&1^34#9*18@endpoint!17&1^172#9*18@endpoint!22&1^132#9*18@endpoint!13&1^156#9*18@endpoint!19&1^164#9*18@endpoint!28&1^42#9*18@endpoint!9&1^54#9*18@endpoint!10&1^63#9*18@endpoint!29&1^67#9*18@endpoint!11&1^75#9*18@endpoint!7&1^83#9*18@endpoint!12&1^90#9*18@endpoint!15&1^98#9*18@endpoint!18&1^106#9*18@endpoint!30&1^110#9*18@endpoint!20&1^117#9*18@endpoint!21&1^124#9*18@endpoint!31&1^149#9*18@endpoint!14&1^145#9*18@
+exc|2|exchange_rates_get_specific_rate!16&1^209#9*18@exchange_rates_get_all_current_rates!16&1^221#9*18@
+hea|2|headers!32&1^12#9*19@headers!23&1^182#9*19@
+lim|1|limit!22&1^135#9*18@
+met|3|metadata_list_symbols!16&1^204#9*18@metadata_list_exchanges!16&1^194#9*18@metadata_list_assets!16&1^199#9*18@
+ohl|3|ohlcv_list_all_periods!16&1^227#9*18@ohlcv_latest_data!16&1^232#9*18@ohlcv_historical_data!16&1^242#9*18@
+onl|1|only!22&1^138#5*19@
+ord|4|orderbooks_current_data_all!16&1^314#9*18@orderbooks_current_data_symbol!16&1^319#9*18@orderbooks_latest_data!16&1^325#9*18@orderbooks_historical_data!16&1^334#9*18@
+par|1|params!32&1^11#9*19@
+per|1|perform!8&1^14#9*18@
+que|11|query_parameters!33&1^143#9*19@query_parameters!24&1^52#9*19@query_parameters!34&1^73#9*19@query_parameters!35&1^81#9*19@query_parameters!36&1^88#9*19@query_parameters!37&1^96#9*19@query_parameters!38&1^104#9*19@query_parameters!39&1^122#9*19@query_parameters!40&1^130#9*19@query_parameters!41&1^162#9*19@query_parameters!42&1^170#9*19@
+quo|5|quotes_current_data_symbol!16&1^282#9*18@quotes_historical_data!16&1^305#9*18@quotes_latest_data_all!16&1^288#9*18@quotes_current_data_all!16&1^277#9*18@quotes_latest_data_symbol!16&1^296#9*18@
+sym|10|symbol_id!34&1^72#9*19@symbol_id!35&1^80#9*19@symbol_id!37&1^95#9*19@symbol_id!38&1^103#9*19@symbol_id!43&1^115#9*19@symbol_id!40&1^129#9*19@symbol_id!33&1^142#9*19@symbol_id!44&1^154#9*19@symbol_id!41&1^161#9*19@symbol_id!42&1^169#9*19@
+tra|3|trades_latest_data_all!16&1^251#9*18@trades_historical_data!16&1^268#9*18@trades_latest_data_symbol!16&1^259#9*18@
+url|1|url!32&1^10#9*19@
+wit|2|with_header!16&1^185#9*18@with_headers!16&1^190#9*18@
+-- END TREE

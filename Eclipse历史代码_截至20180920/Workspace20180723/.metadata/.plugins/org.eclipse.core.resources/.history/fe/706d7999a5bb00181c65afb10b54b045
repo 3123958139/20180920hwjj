@@ -1,0 +1,65 @@
+#!/usr/bin/env python
+# coding=utf-8
+
+from sqlalchemy import create_engine
+
+from viclib.common.conf import VConf
+from viclib.exchange.vic_okex.okex_http import OkexHttp
+import pandas as pd
+
+
+class ShowBW1(object):
+    def __init__(self):
+        self.engine = create_engine(
+            'mysql+pymysql://ops:ops!@#9988@47.74.249.179:3308/david')
+
+    def _start(self):
+        self._con = self.engine.connect()
+
+    def _btc_usdt(self, account='13651401725'):
+        conf = VConf()
+        url = conf.get_http('okex')
+        apikey = conf.get_apikey('okex', account)
+        apisecret = conf.get_secret('okex', account)
+        okexhttp = OkexHttp(url, apikey, apisecret)
+        return float(okexhttp.ticker('btc_usdt')['ticker']['last'])
+
+    def _df(self):
+        '''选出最近时间的数据
+        '''
+        query = """SELECT ts,exchange,label,currency,holding,price,usdt,btc 
+        FROM david.BW1_BASE_DATA WHERE ts = 
+        (SELECT DISTINCT ts FROM david.BW1_BASE_DATA ORDER BY ts DESC LIMIT 1);
+        """
+        df = pd.read_sql(query, self._con)
+        return df
+
+    def _group(self, df):
+        '''将currency分组：pt、bb、ft
+        '''
+        currency = list(set(df['currency'].values))
+        pt = ['BNB', 'HT', 'OKB']
+        ft = sorted([x for x in currency if x[-4:]
+                     == 'WEEK' or x[-4:] == 'RTER'])
+        bb = [x for x in currency if x not in pt and x not in ft]
+        return [pt, ft, bb]
+
+    def _stat_currency(self):
+        pass
+
+    def _end(self):
+        self._con.close()
+
+    def main(self):
+        out_of_account_usdtvalue = 19041.37
+        # btc_usdt = self._btc_usdt()
+        self._start()
+        df = self._df()
+        [pt, ft, bb] = self._group(df)
+        print(pt, ft, bb)
+        self._end()
+
+
+if __name__ == '__main__':
+    obj = ShowBW1()
+    obj.main()

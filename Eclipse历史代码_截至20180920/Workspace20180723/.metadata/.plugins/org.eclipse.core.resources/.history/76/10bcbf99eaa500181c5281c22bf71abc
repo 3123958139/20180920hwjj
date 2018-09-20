@@ -1,0 +1,32 @@
+#!/usr/bin/python
+# -*- coding:utf-8 -*-
+# encoding:utf-8
+
+
+"""
+@date: 20180820
+@author: David
+"""
+
+from builtins import Exception
+
+from sqlalchemy import create_engine
+
+import datetime as dt
+import pandas as pd
+
+PATH_TB = "\\\\192.168.1.67\\CryphtoFund\\DATA\\TB\\"
+
+symDict = {
+    'BCH': 'OKEX--BCH--USDT',
+    'BTC': 'OKEX--BTC--USDT',
+    'DASH': 'OKEX--DASH--USDT',
+    'EOS': 'OKEX--EOS--USDT',
+    'ETC': 'OKEX--ETC--USDT',
+    'ETH': 'OKEX--ETH--USDT',
+    'LTC': 'OKEX--LTC--USDT',
+    'XRP': 'OKEX--XRP--USDT'
+}
+
+engine = create_engine(
+    'mysql+pymysql://ops:ops!@#9988@47.74.249.179:3308/vic_5mk')

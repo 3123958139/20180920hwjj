@@ -1,0 +1,30 @@
+-- VERSION_5
+-- START DISKCACHE_2
+E:\Workspace20180723\.metadata\.plugins\org.eclipse.core.resources\.projects\CheckPosition\com.python.pydev.analysis\v2_indexcache
+CheckPosition|1537347908733518000|E:\Workspace20180723\CheckPosition\src\CheckPosition.py
+-- END DISKCACHE
+-- START DICTIONARY
+5
+3=CheckPosition._start
+5=CheckPosition._check_mysql_web
+1=E:\Workspace20180723\CheckPosition\src\CheckPosition.py
+4=CheckPosition.__init__
+2=CheckPosition
+-- END DICTIONARY
+-- START TREE 1
+2
+che|1|CheckPosition!1^8#7*17@
+obj|1|obj!1^51#5*19@
+-- END TREE
+-- START TREE 2
+9
+__i|1|__init__!2&1^9#9*18@
+_ch|2|_check_mysql_web!2&1^15#9*18@_check_mysql_tb!2&1^38#9*18@
+_co|1|_con!3&1^13#9*19@
+_en|2|_end!2&1^41#9*18@_engine!4&1^10#9*19@
+_st|1|_start!2&1^12#9*18@
+exc|1|exchange!5&1^19#9*19@
+mai|1|main!2&1^44#9*18@
+no1|1|no1!5&1^18#9*19@
+sym|1|symbol!5&1^20#9*19@
+-- END TREE

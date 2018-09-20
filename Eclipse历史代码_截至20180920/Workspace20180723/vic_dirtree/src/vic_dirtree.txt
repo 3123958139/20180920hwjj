@@ -1,0 +1,194 @@
+<vic_dirtree>
+©À<vic>
+©¦  ©À__init__.py
+©¦  ©Àfind.sh
+©¦  ©Àreplace.sh
+©¦  ©À<analyses>
+©¦  ©¦  ©¸README.md
+©¦  ©À<core>
+©¦  ©¦  ©À__init__.py
+©¦  ©¦  ©Àlivebroker.py
+©¦  ©¦  ©Àlivefeed.py
+©¦  ©¦  ©Àstrategy.py
+©¦  ©¦  ©¸struct.py
+©¦  ©À<examples>
+©¦  ©¦  ©Àbacktesting.py
+©¦  ©¦  ©Àexample.py
+©¦  ©¦  ©¸mhfreq_strategy.py
+©¦  ©À<exchange>
+©¦  ©¦  ©À__init__.py
+©¦  ©¦  ©À<common>
+©¦  ©¦  ©¦  ©À__init__.py
+©¦  ©¦  ©¦  ©À_websocket.py
+©¦  ©¦  ©¦  ©¸http.py
+©¦  ©¦  ©À<vic_binance>
+©¦  ©¦  ©¦  ©À__init__.py
+©¦  ©¦  ©¦  ©Àbinance_http.py
+©¦  ©¦  ©¦  ©Àbinance_http_thread.py
+©¦  ©¦  ©¦  ©Àbinance_ws.py
+©¦  ©¦  ©¦  ©Àbinance_ws_thread.py
+©¦  ©¦  ©¦  ©Àtest.py
+©¦  ©¦  ©¦  ©¸<python-binance>
+©¦  ©¦  ©À<vic_bitmex>
+©¦  ©¦  ©¦  ©À__init__.py
+©¦  ©¦  ©¦  ©Àbitmex_http.py
+©¦  ©¦  ©¦  ©Àbitmex_http_thread.py
+©¦  ©¦  ©¦  ©Àbitmex_ws.py
+©¦  ©¦  ©¦  ©Àbitmex_ws_thread.py
+©¦  ©¦  ©¦  ©À<api-connectors>
+©¦  ©¦  ©¦  ©¸<sample-market-maker>
+©¦  ©¦  ©À<vic_gdax>
+©¦  ©¦  ©¦  ©¸<gdax-python>
+©¦  ©¦  ©À<vic_huobi>
+©¦  ©¦  ©¦  ©À__init__.py
+©¦  ©¦  ©¦  ©Àhuobi_http.py
+©¦  ©¦  ©¦  ©Àhuobi_http_thread.py
+©¦  ©¦  ©¦  ©Àhuobi_ws.py
+©¦  ©¦  ©¦  ©Àhuobi_ws_thread.py
+©¦  ©¦  ©¦  ©À<REST-API-demos>
+©¦  ©¦  ©¦  ©¸<WebSocket-API-demos>
+©¦  ©¦  ©À<vic_kraken>
+©¦  ©¦  ©¦  ©¸<python2-krakenex>
+©¦  ©¦  ©À<vic_mysql>
+©¦  ©¦  ©¦  ©À__init__.py
+©¦  ©¦  ©¦  ©¸loaddata_from_mysql.py
+©¦  ©¦  ©À<vic_okex>
+©¦  ©¦  ©¦  ©À__init__.py
+©¦  ©¦  ©¦  ©Àokex_http.py
+©¦  ©¦  ©¦  ©Àokex_http_thread.py
+©¦  ©¦  ©¦  ©Àokex_ws.py
+©¦  ©¦  ©¦  ©Àokex_ws_thread.py
+©¦  ©¦  ©¦  ©Àokexft_http.py
+©¦  ©¦  ©¦  ©Àokexft_http_thread.py
+©¦  ©¦  ©¦  ©Àokexft_ws_thread.py
+©¦  ©¦  ©¦  ©Àokexzs_ws_thread.py
+©¦  ©¦  ©¦  ©À<rest>
+©¦  ©¦  ©¦  ©¸<WebSocket>
+©¦  ©À<plot>
+©¦  ©¦  ©¸README.md
+©À<viclib>
+©¦  ©À__init__.py
+©¦  ©ÀREADME.md
+©¦  ©À<common>
+©¦  ©¦  ©À__init__.py
+©¦  ©¦  ©À_websocket.py
+©¦  ©¦  ©Àconf.py
+©¦  ©¦  ©Àhttp.py
+©¦  ©¦  ©Àmysql_pool.py
+©¦  ©¦  ©Àqyapi_weixin.py
+©¦  ©¦  ©Àsendmail.py
+©¦  ©¦  ©¸xsl.py
+©¦  ©À<exchange>
+©¦  ©¦  ©À__init__.py
+©¦  ©¦  ©À<vic_binance>
+©¦  ©¦  ©¦  ©À__init__.py
+©¦  ©¦  ©¦  ©Àbinance_http.py
+©¦  ©¦  ©¦  ©Àbinance_http_thread.py
+©¦  ©¦  ©¦  ©Àbinance_ws.py
+©¦  ©¦  ©¦  ©Àbinance_ws_thread.py
+©¦  ©¦  ©¦  ©Àtest.py
+©¦  ©¦  ©¦  ©¸<python-binance>
+©¦  ©¦  ©À<vic_bitmex>
+©¦  ©¦  ©¦  ©À__init__.py
+©¦  ©¦  ©¦  ©Àbitmex_http.py
+©¦  ©¦  ©¦  ©Àbitmex_http_thread.py
+©¦  ©¦  ©¦  ©Àbitmex_ws.py
+©¦  ©¦  ©¦  ©Àbitmex_ws_thread.py
+©¦  ©¦  ©¦  ©¸<api-connectors>
+©¦  ©¦  ©À<vic_bitstamp>
+©¦  ©¦  ©¦  ©À__init__.py
+©¦  ©¦  ©¦  ©¸bitstamp_ws.py
+©¦  ©¦  ©À<vic_gdax>
+©¦  ©¦  ©¦  ©¸<gdax-python>
+©¦  ©¦  ©À<vic_huobi>
+©¦  ©¦  ©¦  ©À__init__.py
+©¦  ©¦  ©¦  ©Àhuobi_http.py
+©¦  ©¦  ©¦  ©Àhuobi_http_thread.py
+©¦  ©¦  ©¦  ©Àhuobi_ws.py
+©¦  ©¦  ©¦  ©Àhuobi_ws_thread.py
+©¦  ©¦  ©¦  ©À<REST-API-demos>
+©¦  ©¦  ©¦  ©¸<WebSocket-API-demos>
+©¦  ©¦  ©À<vic_kraken>
+©¦  ©¦  ©¦  ©¸<python2-krakenex>
+©¦  ©¦  ©À<vic_mysql>
+©¦  ©¦  ©¦  ©À__init__.py
+©¦  ©¦  ©¦  ©¸loaddata_from_mysql.py
+©¦  ©¦  ©À<vic_okex>
+©¦  ©¦  ©¦  ©À__init__.py
+©¦  ©¦  ©¦  ©Àokex_http.py
+©¦  ©¦  ©¦  ©Àokex_http_thread.py
+©¦  ©¦  ©¦  ©Àokex_ws.py
+©¦  ©¦  ©¦  ©Àokex_ws_thread.py
+©¦  ©¦  ©¦  ©Àokexft_http.py
+©¦  ©¦  ©¦  ©Àokexft_http_thread.py
+©¦  ©¦  ©¦  ©Àokexft_ws_thread.py
+©¦  ©¦  ©¦  ©Àokexzs_ws_thread.py
+©¦  ©¦  ©¦  ©À<rest>
+©¦  ©¦  ©¦  ©¸<WebSocket>
+©¦  ©À<netvalue>
+©¦  ©¦  ©À__init__.py
+©¦  ©¦  ©Àbinance_netvalue.py
+©¦  ©¦  ©Àhuobi_netvalue.py
+©¦  ©¦  ©Àokex_netvalue.py
+©¦  ©¦  ©Àorder_oneclick.py
+©¦  ©¦  ©¸README.md
+©À<vics>
+©¦  ©ÀREADME.md
+©¦  ©À<doc>
+©¦  ©¦  ©Àdatabases.md
+©¦  ©¦  ©Àdevelop_accounts.md
+©¦  ©¦  ©Àhosts.md
+©¦  ©¦  ©Àproduct_accounts.md
+©¦  ©¦  ©ÀREADME.md
+©¦  ©¦  ©Àservers.md
+©¦  ©¦  ©Àtest.md
+©¦  ©¦  ©À<img>
+©¦  ©¦  ©¦  ©ÀBINA-ETH.png
+©¦  ©¦  ©¦  ©ÀHUOBI-ETH.png
+©¦  ©¦  ©¦  ©¸OKEX-ETH.png
+©¦  ©À<market>
+©¦  ©¦  ©À__init__.py
+©¦  ©¦  ©Àbackup_db.sh
+©¦  ©¦  ©Àclear.sh
+©¦  ©¦  ©Àstore_market_data.py
+©¦  ©¦  ©¸streaty_example.py
+©¦  ©À<netvalue>
+©¦  ©¦  ©Ànetvalue_risk_tools.py
+©¦  ©¦  ©¸README.md
+©¦  ©À<server>
+©¦  ©¦  ©Àclient.py
+©¦  ©¦  ©Àexchange_market_server.py
+©¦  ©¦  ©Àexchange_trade_server.py
+©¦  ©¦  ©ÀREADME.md
+©¦  ©¦  ©Àserver.py
+©¦  ©¦  ©¸start.sh
+©¦  ©À<tools>
+©¦  ©¦  ©Àcreate_netvalue_equity_table.sh
+©¦  ©¦  ©Àcreate_vic_tables.sh
+©¦  ©¦  ©¸mysql_vic_transfer_data.sh
+©À<winsen>
+©¦  ©À<algorithm>
+©¦  ©¦  ©À__init__.py
+©¦  ©¦  ©Àis.py
+©¦  ©¦  ©Àpov.py
+©¦  ©¦  ©Àtwap.py
+©¦  ©¦  ©Àvol.py
+©¦  ©¦  ©¸vwap.py
+©¦  ©À<common>
+©¦  ©¦  ©À__init__.py
+©¦  ©¦  ©Àfmt.py
+©¦  ©¦  ©ÀinitHelper.py
+©¦  ©¦  ©ÀloadData.py
+©¦  ©¦  ©Àmsg.py
+©¦  ©¦  ©ÀposManager.py
+©¦  ©¦  ©Àsignal.py
+©¦  ©¦  ©¸tradeHelper.py
+©¦  ©À<config>
+©¦  ©¦  ©À__init__.py
+©¦  ©¦  ©Àaccount.py
+©¦  ©¦  ©¸portfolio.py
+©¦  ©À<strategies>
+©¦  ©¦  ©¸ok_mom_hour.py
+©¦  ©À<traders>
+©¦  ©¦  ©ÀoperatingCommand.md
+©¦  ©¦  ©¸tradeCommand.md

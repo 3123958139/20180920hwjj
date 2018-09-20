@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;PyAlgoTrade/src/1&apos; to &apos;sma_crossover.py&apos;" description="Rename resource &apos;1&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/1" name="sma_crossover.py" stamp="1534834773631" updateReferences="true"/>
+</session>

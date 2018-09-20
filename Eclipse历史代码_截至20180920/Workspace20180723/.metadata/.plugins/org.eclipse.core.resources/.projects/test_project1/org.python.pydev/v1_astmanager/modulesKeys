@@ -1,0 +1,10 @@
+MODULES_MANAGER_V2
+hwjj_plot|E:\Workspace20180723\test_project1\src\hwjj_plot.py
+pyqtgraph|E:\Workspace20180723\test_project1\src\pyqtgraph.py
+test_py1|E:\Workspace20180723\test_project1\src\test_py1.py
+timer_download_1h.UpdateVIC1h|E:\Workspace20180723\test_project1\src\timer_download_1h\UpdateVIC1h.py
+timer_download_1h.UpdateVIC1h_new|E:\Workspace20180723\test_project1\src\timer_download_1h\UpdateVIC1h_new.py
+timer_download_1h.__init__|E:\Workspace20180723\test_project1\src\timer_download_1h\__init__.py
+timer_download_1h.coinapi_v1|E:\Workspace20180723\test_project1\src\timer_download_1h\coinapi_v1.py
+timer_download_1h.examples|E:\Workspace20180723\test_project1\src\timer_download_1h\examples.py
+timer_download_1h.test|E:\Workspace20180723\test_project1\src\timer_download_1h\test.py

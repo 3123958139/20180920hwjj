@@ -1,0 +1,56 @@
+# coding:utf-8
+from sqlalchemy import create_engine
+from coinapi_v1 import CoinAPIv1
+import datetime as dt
+import pandas as pd
+#=========================================================================
+#
+#=========================================================================
+test_key = 'EA8CF467-3ECD-42D6-A59E-97D908AEB57D'
+api = CoinAPIv1(test_key)
+#=========================================================================
+# 查询缺失日期
+#=========================================================================
+#  使用179地址的test库1h表做测试
+engine = create_engine('mysql+pymysql://' +
+                       'ops:ops!@#9988@47.74.249.179:3308/test')
+with engine.connect() as conn:
+    #  取1h表的ts列
+    df = pd.read_sql(sql='select distinct ts from test.1h order by ts;',
+                     con=conn)
+
+    # 选出间隔大于1h的ts值
+    df['diff'] = df['ts'].diff(1) / pd.Timedelta('0 days 01:00:00')
+    tsOut = list(df[df['diff'] > 1].index.values)
+
+    # 日期格式调整
+    def time_format(inputT):
+        UTC_FORMAT = "%Y-%m-%dT%H:%M:%S.0000000Z"
+        LOCAL_FORMAT = "%Y-%m-%d %H:%M:%S"
+        return dt.datetime.strptime(inputT, UTC_FORMAT).strftime(LOCAL_FORMAT)
+
+    with open('d:\\test_1h.csv', 'w') as f:
+        s = 'ts,symbol,open,high,low,close,quantity\n'
+        f.write(s)
+        for i in tsOut:
+            # 间断期的起止ts值
+            start, end = df['ts'].ix[i - 1: i].values
+            start = str(start)[:19]
+            end = str(end)[:19]
+            print('lost ts:\t' + start + '\t-\t' + end)
+            symbol = 'BINANCE_SPOT_BTC_USDT'  # 测试时只用一个symbol，后续增加symbol
+            data = api.ohlcv_historical_data(symbol,
+                                             {'period_id': '1HRS', 'time_start': start, 'time_end': end})
+            print(data)
+            for s in data:
+                ts = time_format(s['time_period_start'])
+                symbol = symbol
+                open = s['price_open']
+                high = s['price_high']
+                low = s['price_low']
+                close = s['price_close']
+                quantity = s['volume_traded']
+                insert_data = [ts, symbol, open, high, low, close, quantity]
+                s = str(insert_data).replace('[', '').replace(']', '')
+                s = s.replace("'", '') + '\n'
+                f.write(s)

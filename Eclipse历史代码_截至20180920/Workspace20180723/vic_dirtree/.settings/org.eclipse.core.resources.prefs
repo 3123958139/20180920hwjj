@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//src/vic/core/livebroker.py=utf-8
+encoding//src/vic/core/strategy.py=utf-8
+encoding//src/vic/core/struct.py=utf-8
+encoding//src/vic/examples/backtesting.py=utf-8
+encoding//src/vic/examples/example.py=utf-8
+encoding//src/vic/exchange/common/http.py=utf-8
+encoding//src/vic/exchange/vic_okex/okex_http.py=utf-8
+encoding//src/vic/exchange/vic_okex/okex_http_thread.py=utf-8
+encoding//src/vic/exchange/vic_okex/okex_ws_thread.py=utf-8
+encoding//src/vic/exchange/vic_okex/okexft_http.py=utf-8
+encoding//src/viclib/common/xsl.py=utf-8
+encoding//src/viclib/netvalue/binance_netvalue.py=utf-8
+encoding//src/vics/netvalue/netvalue_risk_tools.py=utf-8
+encoding//src/winsen/strategies/ok_mom_hour.py=utf-8

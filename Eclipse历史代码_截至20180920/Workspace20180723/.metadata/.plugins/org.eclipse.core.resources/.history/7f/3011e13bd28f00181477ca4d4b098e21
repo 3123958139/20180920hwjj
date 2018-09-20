@@ -1,0 +1,88 @@
+# -*- coding: utf-8 -*-
+
+from OkcoinFutureAPI import OKCoinFuture
+from OkcoinSpotAPI import OKCoinSpot
+
+
+# ��ʼ��apikey��secretkey,url
+apikey = 'XXXX'
+secretkey = 'XXXXX'
+okcoinRESTURL = 'www.okcoin.com'  # ����ע�⣺�����˺���Ҫ �޸�Ϊ www.okcoin.cn
+
+# �ֻ�API
+okcoinSpot = OKCoinSpot(okcoinRESTURL, apikey, secretkey)
+
+# �ڻ�API
+okcoinFuture = OKCoinFuture(okcoinRESTURL, apikey, secretkey)
+
+print(u' �ֻ����� ')
+print(okcoinSpot.ticker('btc_usd'))
+
+print(u' �ֻ���� ')
+print(okcoinSpot.depth('btc_usd'))
+
+#print (u' �ֻ���ʷ������Ϣ ')
+#print (okcoinSpot.trades())
+
+#print (u' �û��ֻ��˻���Ϣ ')
+#print (okcoinSpot.userinfo())
+
+#print (u' �ֻ��µ� ')
+#print (okcoinSpot.trade('ltc_usd','buy','0.1','0.2'))
+
+#print (u' �ֻ������µ� ')
+#print (okcoinSpot.batchTrade('ltc_usd','buy','[{price:0.1,amount:0.2},{price:0.1,amount:0.2}]'))
+
+#print (u' �ֻ�ȡ������ ')
+#print (okcoinSpot.cancelOrder('ltc_usd','18243073'))
+
+#print (u' �ֻ�������Ϣ��ѯ ')
+#print (okcoinSpot.orderinfo('ltc_usd','18243644'))
+
+#print (u' �ֻ�����������Ϣ��ѯ ')
+#print (okcoinSpot.ordersinfo('ltc_usd','18243800,18243801,18243644','0'))
+
+#print (u' �ֻ���ʷ������Ϣ��ѯ ')
+#print (okcoinSpot.orderHistory('ltc_usd','0','1','2'))
+
+#print (u' �ڻ�������Ϣ')
+#print (okcoinFuture.future_ticker('ltc_usd','this_week'))
+
+#print (u' �ڻ��г������Ϣ')
+#print (okcoinFuture.future_depth('btc_usd','this_week','6'))
+
+#print (u'�ڻ����׼�¼��Ϣ')
+#print (okcoinFuture.future_trades('ltc_usd','this_week'))
+
+#print (u'�ڻ�ָ����Ϣ')
+#print (okcoinFuture.future_index('ltc_usd'))
+
+#print (u'��Ԫ����һ���')
+#print (okcoinFuture.exchange_rate())
+
+#print (u'��ȡԤ�������')
+#print (okcoinFuture.future_estimated_price('ltc_usd'))
+
+#print (u'��ȡȫ���˻���Ϣ')
+#print (okcoinFuture.future_userinfo())
+
+#print (u'��ȡȫ�ֲֳ���Ϣ')
+#print (okcoinFuture.future_position('ltc_usd','this_week'))
+
+#print (u'�ڻ��µ�')
+#print (okcoinFuture.future_trade('ltc_usd','this_week','0.1','1','1','0','20'))
+
+#print (u'�ڻ������µ�')
+#print (okcoinFuture.future_batchTrade('ltc_usd','this_week','[{price:0.1,amount:1,type:1,match_price:0},{price:0.1,amount:3,type:1,match_price:0}]','20'))
+
+#print (u'�ڻ�ȡ������')
+#print (okcoinFuture.future_cancel('ltc_usd','this_week','47231499'))
+
+#print (u'�ڻ���ȡ������Ϣ')
+#print (okcoinFuture.future_orderinfo('ltc_usd','this_week','47231812','0','1','2'))
+
+#print (u'�ڻ�����˻���Ϣ')
+#print (okcoinFuture.future_userinfo_4fix())
+
+#print (u'�ڻ���ֲֳ���Ϣ')
+#print (okcoinFuture.future_position_4fix('ltc_usd','this_week',1))

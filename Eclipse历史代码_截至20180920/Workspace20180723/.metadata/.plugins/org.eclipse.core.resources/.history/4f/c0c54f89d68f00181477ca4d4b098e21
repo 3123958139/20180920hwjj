@@ -1,0 +1,30 @@
+# -*- coding: utf-8 -*-
+from OkcoinFutureAPI import OKCoinFuture
+from OkcoinSpotAPI import OKCoinSpot
+import matplotlib.pyplot as plt
+import numpy as np
+
+# 初始化
+apikey = 'cdffc016-fdea-4e97-a200-39de74f0021a'
+secretkey = '4277FB3395F1590ABC1FC8218B8CC1DF'
+okcoinRESTURL = 'www.okcoin.com'
+
+# 现货
+okcoinSpot = OKCoinSpot(okcoinRESTURL, apikey, secretkey)
+
+# 期货
+okcoinFuture = OKCoinFuture(okcoinRESTURL, apikey, secretkey)
+
+print('现货行情')
+
+list_buy = []
+while(1):
+    ticker_buy = float(okcoinSpot.ticker('btc_usd')['ticker']['buy'])
+    print(ticker_buy)
+
+    list_buy.append(ticker_buy)
+
+    if ticker_buy < np.mean(list_buy):
+        plt.plot(list_buy)
+        plt.show()
+        break

@@ -1,0 +1,4 @@
+MODULES_MANAGER_V2
+PrintNetValue|E:\Workspace20180723\Schedule\src\PrintNetValue.py
+UpdateMySQLApScheduler|E:\Workspace20180723\Schedule\src\UpdateMySQLApScheduler.py
+coinapi_v1|E:\Workspace20180723\Schedule\src\coinapi_v1.py

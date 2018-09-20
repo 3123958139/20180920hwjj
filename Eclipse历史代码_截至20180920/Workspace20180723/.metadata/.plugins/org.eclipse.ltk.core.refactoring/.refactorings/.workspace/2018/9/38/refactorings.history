@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;CheckIfMissing/src/show.csv&apos;" deleteContents="false" description="Delete resource &apos;CheckIfMissing/src/show.csv&apos;" element1="/CheckIfMissing/src/show.csv" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1537234549148"/>
+</session>

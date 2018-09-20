@@ -1,0 +1,92 @@
+-- VERSION_5
+-- START DISKCACHE_2
+E:\Workspace20180723\.metadata\.plugins\org.eclipse.core.resources\.projects\OKExAPI\com.python.pydev.analysis\v2_indexcache
+price_warning|1536559100604992000|E:\Workspace20180723\OKExAPI\src\price_warning.py
+python.HttpMD5Util|1463058416000000000|E:\Workspace20180723\OKExAPI\src\python\HttpMD5Util.py
+token_watching.token_watching|1536559507181453000|E:\Workspace20180723\OKExAPI\src\token_watching\token_watching.py
+test|1534166079236620000|E:\Workspace20180723\OKExAPI\src\test.py
+token_watching.david_okexft_http|1534202440066382000|E:\Workspace20180723\OKExAPI\src\token_watching\david_okexft_http.py
+python.Client|1534128893582882000|E:\Workspace20180723\OKExAPI\src\python\Client.py
+token_watching.david_http|1534142985070034000|E:\Workspace20180723\OKExAPI\src\token_watching\david_http.py
+token_watching.david_okex_http|1534142707785370000|E:\Workspace20180723\OKExAPI\src\token_watching\david_okex_http.py
+python.OkcoinFutureAPI|1534128880752788000|E:\Workspace20180723\OKExAPI\src\python\OkcoinFutureAPI.py
+python.OkcoinSpotAPI|1536363980132865000|E:\Workspace20180723\OKExAPI\src\python\OkcoinSpotAPI.py
+token_watching.david_qyapi_weixin|1534149004073866000|E:\Workspace20180723\OKExAPI\src\token_watching\david_qyapi_weixin.py
+-- END DISKCACHE
+-- START DICTIONARY
+30
+23=OKCoinSpot.__init__
+7=E:\Workspace20180723\OKExAPI\src\price_warning.py
+20=token_watching.token_watching
+21=OKCoinFuture.__init__
+24=QyWeixin
+5=E:\Workspace20180723\OKExAPI\src\token_watching\david_okex_http.py
+8=price_warning
+12=python.HttpMD5Util
+19=E:\Workspace20180723\OKExAPI\src\token_watching\token_watching.py
+1=E:\Workspace20180723\OKExAPI\src\token_watching\david_qyapi_weixin.py
+3=E:\Workspace20180723\OKExAPI\src\python\Client.py
+28=OkexHttp
+14=token_watching.david_http
+10=token_watching.david_okexft_http
+29=OKCoinFuture
+6=token_watching.david_okex_http
+17=E:\Workspace20180723\OKExAPI\src\python\OkcoinFutureAPI.py
+16=python.OkcoinSpotAPI
+18=python.OkcoinFutureAPI
+25=QyWeixin.__init__
+22=HttpClient.__init__
+30=OKCoinSpot
+11=E:\Workspace20180723\OKExAPI\src\python\HttpMD5Util.py
+27=HttpClient
+4=python.Client
+9=E:\Workspace20180723\OKExAPI\src\token_watching\david_okexft_http.py
+15=E:\Workspace20180723\OKExAPI\src\python\OkcoinSpotAPI.py
+2=token_watching.david_qyapi_weixin
+13=E:\Workspace20180723\OKExAPI\src\token_watching\david_http.py
+26=OkexftHttp
+-- END DICTIONARY
+-- START TREE 1
+16
+age|1|agentid!1^136#5*19@
+api|6|apikey!3^11#1*35@apikey!5^24#5*51@apisecret!5^25#5*51@apikey!7^18#1*67@apikey!9^30#5*83@apisecret!9^31#5*83@
+bui|1|buildMySign!11^11#5*98@
+htt|6|HttpClient!13^15#7*113@http!9^34#5*83@http!5^28#5*51@httpPost!11^25#5*98@httpGet!11^18#5*98@http!13^115#5*115@
+mes|1|message!1^137#5*19@
+okc|7|OKCoinSpot!15^7#7*129@okcoinRESTURL!7^20#1*67@okcoinRESTURL!3^13#1*35@OKCoinFuture!17^7#7*145@okcoinSpot!3^16#1*35@okcoinSpot!7^23#1*67@okcoinFuture!3^19#1*35@
+oke|2|OkexHttp!5^8#7*49@OkexftHttp!9^10#7*81@
+pri|1|price_warning!7^26#5*66@
+qy|1|qy!1^141#5*19@
+qyw|1|QyWeixin!1^12#7*17@
+sec|3|secretkey!7^19#1*67@secretkey!3^12#1*35@secret!1^135#5*19@
+sen|1|sendWatchingMsg!19^15#5*162@
+tok|2|tokenft_watching!19^55#5*162@token_watching!19^26#5*162@
+top|1|toparty!1^139#5*19@
+tou|1|touser!1^138#5*19@
+url|2|url!5^26#5*51@url!9^32#5*83@
+-- END TREE
+-- START TREE 2
+22
+__a|4|__apikey!21&17^11#9*147@__apikey!22&13^22#9*115@__apikey!23&15^11#9*131@__apisecret!22&13^23#9*115@
+__c|1|__check!24&1^26#9*18@
+__g|1|__gettoken!24&1^40#9*18@
+__h|1|__headers!25&1^24#9*19@
+__i|6|__init__!26&9^11#9*82@__init__!27&13^19#9*114@__init__!24&1^18#9*18@__init__!28&5^12#9*50@__init__!29&17^9#9*146@__init__!30&15^9#9*130@
+__s|3|__sign!27&13^45#9*114@__secretkey!21&17^12#9*147@__secretkey!23&15^12#9*131@
+__u|3|__url!21&17^10#9*147@__url!23&15^10#9*131@__url!22&13^24#9*115@
+bat|1|batchTrade!30&15^63#9*130@
+can|1|cancelOrder!30&15^75#9*130@
+cor|1|corpid!24&1^13#5*19@
+dep|2|depth!30&15^23#9*130@departments!24&1^15#5*19@
+exc|1|exchange_rate!29&17^55#9*146@
+fut|14|future_batchTrade!29&17^104#9*146@future_userinfo_4fix!29&17^144#9*146@future_index!29&17^47#9*146@future_depth!29&17^25#9*146@future_ticker!26&9^16#9*82@future_estimated_price!29&17^60#9*146@future_cancel!29&17^117#9*146@future_userinfo!29&17^68#9*146@future_trades!29&17^37#9*146@future_position!29&17^76#9*146@future_position_4fix!29&17^151#9*146@future_trade!29&17^87#9*146@future_orderinfo!29&17^129#9*146@future_ticker!29&17^15#9*146@
+get|8|getUrl!27&13^40#9*114@getuser!24&1^73#9*18@getuserinfo!24&1^86#9*18@getApiKey!27&13^30#9*114@getheader!22&13^26#9*115@getdepartment!24&1^61#9*18@getuserid!24&1^98#9*18@getApiSecret!27&13^35#9*114@
+htt|3|http_get_request!27&13^65#9*114@http_post_request!27&13^52#9*114@http_request!27&13^77#9*114@
+ord|3|ordersinfo!30&15^97#9*130@orderinfo!30&15^86#9*130@orderHistory!30&15^109#9*130@
+pos|1|postheader!22&13^28#9*115@
+sec|1|secrets!24&1^14#5*19@
+sen|1|sendtxt!24&1^109#9*18@
+tic|2|ticker!28&5^17#9*50@ticker!30&15^15#9*130@
+tra|2|trades!30&15^31#9*130@trade!30&15^47#9*130@
+use|2|userinfo!30&15^39#9*130@userlist!24&1^16#5*19@
+-- END TREE

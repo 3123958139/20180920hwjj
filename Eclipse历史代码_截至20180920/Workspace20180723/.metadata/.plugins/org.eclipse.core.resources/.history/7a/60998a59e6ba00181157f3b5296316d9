@@ -1,0 +1,63 @@
+#!/usr/bin/env python
+# coding=utf-8
+
+import pandas as pd
+
+
+class ShowBW2(object):
+    def __init__(self):
+        self.df = pd.read_csv('show.csv')
+        # 交易所前缀
+        self.exchanges = ['OKEX', 'BINA', 'HUOBI']
+        # 货币分组：平台币、合约币、币币币
+        self.currency = list(set(self.df['currency'].values))
+        self.pt = ['BNB', 'HT', 'OKB']
+        self.ft = [x for x in self.currency if x[-3:] ==
+                   'USD' or x[-4:] == 'USD1' or x[-4:] == 'USD2']
+        self.bb = [
+            x for x in self.currency if x not in self.pt and x not in self.ft]
+        # 市值
+        self.df['usdt'] = self.df['vol'] * self.df['price']
+
+    def showExchangePosition(self):
+        exchangePositon = {}
+        totalUsdt = self.showTotalUsdt()['total_usdt'].values
+        df = self.df
+        df['ratio'] = df['usdt'] / totalUsdt
+        for cur in self.currency:
+            exchangePositon[cur] = df[df['currency']
+                                      == cur]['ratio'].sum() * 100
+        return pd.DataFrame(exchangePositon, index=[0])[[self.pt, self.bb, self.ft]]
+
+    def showTotalUsdt(self, moneyOffTheBook=19041.37):
+        # 账外资产
+        self.moneyOffTheBook = moneyOffTheBook
+        # 权益资产
+        self.moneyOnTheBook = self.df[self.df['currency'].isin(
+            self.pt + self.bb)]['usdt'].sum()
+        self.totalUsdt = self.moneyOffTheBook + self.moneyOnTheBook
+        return pd.DataFrame({'total_usdt': self.totalUsdt}, index=[0])
+
+    def showExchangeUsdt(self):
+        self.exchangeUsdt = {}
+        for exch in self.exchanges:
+            if exch == 'OKEX':
+                df = self.df[self.df['currency'].isin(self.pt + self.bb)]
+                okex_usdt = df[df['exchange'].isin(
+                    [exch, 'OKEX1'])]['usdt'].sum()
+                self.exchangeUsdt[exch.lower() + '_usdt'] = okex_usdt
+            elif exch == 'BINA':
+                self.exchangeUsdt[exch.lower(
+                ) + '_usdt'] = self.df[self.df['exchange'].isin([exch])]['usdt'].sum()
+            elif exch == 'HUOBI':
+                self.exchangeUsdt[exch.lower(
+                ) + '_usdt'] = self.df[self.df['exchange'].isin([exch])]['usdt'].sum()
+        return pd.DataFrame(self.exchangeUsdt, index=[0])
+
+
+if __name__ == '__main__':
+    obj = ShowBW2()
+    print(obj.pt, obj.ft, obj.bb)
+    print(obj.showTotalUsdt())
+    print(obj.showExchangeUsdt())
+    print(obj.showExchangePosition())

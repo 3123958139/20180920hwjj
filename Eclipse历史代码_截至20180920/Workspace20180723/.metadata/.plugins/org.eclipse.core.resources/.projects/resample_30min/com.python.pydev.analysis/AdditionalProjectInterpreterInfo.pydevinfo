@@ -1,0 +1,22 @@
+-- VERSION_5
+-- START DISKCACHE_2
+E:\Workspace20180723\.metadata\.plugins\org.eclipse.core.resources\.projects\resample_30min\com.python.pydev.analysis\v2_indexcache
+resample_30min|1534776267205996000|E:\Workspace20180723\resample_30min\src\resample_30min.py
+-- END DISKCACHE
+-- START DICTIONARY
+2
+2=resample_30min
+1=E:\Workspace20180723\resample_30min\src\resample_30min.py
+-- END DICTIONARY
+-- START TREE 1
+6
+df|1|df!1^38#13*19@
+eng|1|engine!1^32#1*19@
+ohl|1|ohlc_dict!1^46#13*19@
+pat|1|PATH_TB!1^18#1*19@
+que|1|query!1^37#13*19@
+sym|1|symDict!1^29#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

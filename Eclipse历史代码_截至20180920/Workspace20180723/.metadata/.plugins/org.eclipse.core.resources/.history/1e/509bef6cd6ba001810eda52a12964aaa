@@ -1,0 +1,288 @@
+#!/usr/bin/env python
+# coding=utf-8
+
+import json
+
+from viclib.common.conf import VConf
+from viclib.exchange.vic_binance.binance_http import BinaHttp
+from viclib.exchange.vic_huobi.huobi_http import HuobiHttp
+from viclib.exchange.vic_okex.okex_http import OkexHttp
+from viclib.exchange.vic_okex.okexft_http import OkexftHttp
+import pandas as pd
+
+
+class ExchangeOkex(OkexHttp, OkexftHttp):
+    '''
+    bb0: 币币权益（币、量、价、账户）
+    ft1: 合约权益（币、量、价、账户）
+    ft2: 合约持仓（币、量、价、账户）
+    '''
+
+    def __init__(self, account='Kevin.wang@126.com'):
+        self.conf = VConf()
+        url = self.conf.get_http('okex')
+        apikey = self.conf.get_apikey('okex', account)
+        apisecret = self.conf.get_secret('okex', account)
+        super(ExchangeOkex, self).__init__(url, apikey, apisecret)
+        self.exch_account = account
+        self.contract_types = ['this_week', 'next_week', 'quarter']
+        self.stat_okex = {}
+
+    def bb0(self):
+        userinfo = self.userinfo()['info']['funds']
+        if not userinfo:
+            print ('ExchangeOkex - bb0 - userinfo is None')
+            return
+        free = userinfo['free']
+        freezed = userinfo['freezed']
+        currency = set(free.keys() + freezed.keys())
+        balances = {}
+        for cur in currency:
+            vol = 0.0
+            price = 0.0
+            try:
+                if(free.get(cur) == None):
+                    free[cur] = 0.0
+                if(freezed.get(cur) == None):
+                    freezed[cur] = 0.0
+                if(float(free[cur]) < 0.000001 and float(freezed[cur]) < 0.000001):
+                    continue
+                vol = float(free[cur])+float(freezed[cur])
+                if cur == 'usdt':
+                    price = 1.0
+                elif self.ticker(cur.lower()+'_usdt'):
+                    price = float(self.ticker(
+                        cur.lower()+'_usdt')['ticker']['last'])
+                if vol*price < 1:
+                    continue
+                balances[cur.upper()] = {
+                    'vol': vol,
+                    'price': price,
+                    'account': self.exch_account,
+                }
+            except Exception as e:
+                print (e)
+                continue
+        self.stat_okex['bb0'] = balances
+        return balances
+
+    def ft1(self):
+        userinfo = self.future_userinfo()['info']
+        if not userinfo:
+            return
+        currency = userinfo.keys()
+        balances = {}
+        for cur in currency:
+            vol = 0.0
+            price = 0.0
+            if userinfo[cur]['account_rights'] > 0.0001:
+                try:
+                    vol = userinfo[cur]['account_rights']
+                    if cur == 'usdt':
+                        price = 1.0
+                    elif self.ticker(cur.lower()+'_usdt'):
+                        price = float(self.ticker(
+                            cur.lower()+'_usdt')['ticker']['last'])
+                    if vol*price < 1:
+                        continue
+                    balances[cur.upper()] = {
+                        'vol': vol,
+                        'price': price,
+                        'account': self.exch_account,
+                    }
+                except Exception as e:
+                    print (e)
+                    continue
+        self.stat_okex['ft1'] = balances
+        return balances
+
+    def ft2(self):
+        userinfo = self.future_userinfo()['info']
+        if not userinfo:
+            return
+        currency = userinfo.keys()
+        balances = {}
+        for cur in currency:
+            cur = cur.lower()+'_usd'
+            for con in self.contract_types:
+                vol = 0.0
+                price = 0.0
+                try:
+                    if len(self.future_position(cur, con)['holding']) > 0:
+                        vol = float(self.future_position(cur, con)['holding'][0]['buy_amount'])-float(
+                            self.future_position(cur, con)['holding'][0]['sell_amount'])
+                        if self.future_ticker(cur, con):
+                            price = float(self.future_ticker(
+                                cur, con)['ticker']['last'])
+                        if cur == 'btc_usd':
+                            vol = vol*100/price
+                        else:
+                            vol = vol*10/price
+                        if abs(vol*price) < 1:
+                            continue
+                        balances[cur.upper()] = {
+                            'vol': vol,
+                            'price': price,
+                            'type': con,
+                            'account': self.exch_account,
+                        }
+                except Exception as e:
+                    continue
+        self.stat_okex['ft2'] = balances
+        return balances
+
+
+class ExchangeBina(BinaHttp):
+    def __init__(self, account='Kevin.wang@126.com'):
+        self.conf = VConf()
+        url = self.conf.get_http('binance')
+        apikey = self.conf.get_apikey('binance', account)
+        apisecret = self.conf.get_secret('binance', account)
+        super(ExchangeBina, self).__init__(url, apikey, apisecret)
+        self.exch_account = account
+        self.stat_bina = {}
+
+    def bb0(self):
+        acc = self.account()
+        infos = acc.get('balances')
+        currency = infos
+        balances = {}
+        for cur in currency:
+            vol = 0.0
+            price = 0.0
+            if(float(cur['free'])+float(cur['locked']) < 0.000001):
+                continue
+            vol = float(cur['free'])+float(cur['locked'])
+            try:
+                if cur['asset'].upper() == 'USDT':
+                    price = 1.0
+                else:
+                    price = float(self.ticker(
+                        cur['asset'].upper()+'USDT')['lastPrice'])
+                balances[cur['asset'].upper()] = {
+                    'vol': vol,
+                    'price': price,
+                    'account': self.exch_account,
+                }
+            except Exception as e:
+                print e
+                continue
+        self.stat_bina['bb0'] = balances
+        return balances
+
+
+class ExchangeHuobi(HuobiHttp):
+    def __init__(self, account='Kevin.wang@126.com'):
+        self.conf = VConf()
+        url = self.conf.get_http('huobi')
+        apikey = self.conf.get_apikey('huobi', account)
+        apisecret = self.conf.get_secret('huobi', account)
+        self.__uid = ''
+        super(ExchangeHuobi, self).__init__(url, apikey, apisecret)
+        self.exch_account = account
+        self.stat_huobi = {}
+
+    def bb0(self):
+        account = filter(lambda x: x['type'] ==
+                         'spot', self.accounts()['data'])[0]
+        balances = self.balance(account['id'])
+        if not balances or balances.get('status') != 'ok':
+            raise Exception(balances)
+        balance = {}
+        for item in balances['data']['list']:
+            vol = 0.0
+            price = 0.0
+            try:
+                if(float(item['balance']) < 0.00000001):
+                    continue
+                item['currency'] = item['currency'].upper()
+                key = item['currency']
+                if(not balance.get(key)):
+                    balance[key.upper()] = {
+                        'vol': 0.0,
+                        'price': 0.0
+                    }
+                if(item['type'] == 'trade'):
+                    vol = float(item['balance'])
+                if(item['type'] == 'frozen'):
+                    vol = float(item['balance'])
+                if key.lower() == 'usdt':
+                    price = 1.0
+                else:
+                    price = self.detail_merged(
+                        key.lower()+'usdt')['tick']['open']
+                if vol*price < 1:
+                    continue
+                balance[key.upper()] = {
+                    'vol': vol,
+                    'price': price,
+                    'account': self.exch_account,
+                }
+            except Exception as e:
+                continue
+
+        self.stat_huobi['bb0'] = balance
+        return balance
+
+
+if __name__ == '__main__':
+    exch_account = {
+        'okex': ['Kevin.wang@126.com', 'thetrading'],
+        'bina': ['Kevin.wang@126.com'],
+        'huobi': ['Kevin.wang@126.com'],
+    }
+    all3exchanges = {}
+    for exch in exch_account:
+        if exch == 'okex':
+            for i, acc in enumerate(exch_account[exch]):
+                exch_okex = ExchangeOkex(acc)
+                exch_okex.bb0()
+                exch_okex.ft1()
+                exch_okex.ft2()
+                if i == 0:
+                    all3exchanges['OKEX'] = exch_okex.stat_okex
+                if i > 0:
+                    all3exchanges['OKEX'+str(i)] = exch_okex.stat_okex
+                print 'OKEX\n', '*'*80, '\n', exch_okex.stat_okex, '\n', '*'*80, '\n'
+        if exch == 'bina':
+            exch_bina = ExchangeBina()
+            exch_bina.bb0()
+            all3exchanges['bina'] = exch_bina.stat_bina
+            print 'BINA\n', '*'*80, '\n', exch_bina.stat_bina, '\n', '*'*80, '\n'
+        if exch == 'huobi':
+            exch_huobi = ExchangeHuobi()
+            exch_huobi.bb0()
+            all3exchanges['huobi'] = exch_huobi.stat_huobi
+            print 'HUOBI\n', '*'*80, '\n', exch_huobi.stat_huobi, '\n', '*'*80, '\n'
+
+    with open('./all3exchanges.json', 'w') as f:
+        json.dump(all3exchanges, f)
+
+
+with open('./all3exchanges.json', 'r') as f:
+    js = json.load(f)
+
+with open('show.csv', 'w') as g:
+    columns = 'exchange,label,currency,vol,price,contract,account\n'
+    g.write(columns)
+    for exchange in js.keys():
+        for label in js[exchange].keys():
+            for currency in js[exchange][label].keys():
+                try:
+                    vol = js[exchange][label][currency]['vol']
+                    price = js[exchange][label][currency]['price']
+                    account = js[exchange][label][currency]['account']
+                    contract = ''
+                    if label == 'ft2':
+                        contract = js[exchange][label][currency]['type']
+                    line = [exchange.upper(),  label.upper(), currency.upper(),
+                            vol,  price, contract.upper(), account.upper()]
+                    line = str(line).replace(
+                        '[', '').replace(']', '').replace('u', '')
+                    line = line.replace("'", '') + '\n'
+                    g.write(line)
+                except:
+                    continue
+
+df = pd.read_csv('show.csv')
+print df

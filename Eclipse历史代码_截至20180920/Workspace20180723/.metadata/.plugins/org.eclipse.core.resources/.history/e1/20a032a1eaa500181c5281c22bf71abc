@@ -1,0 +1,15 @@
+#!/usr/bin/python
+# -*- coding:utf-8 -*-
+# encoding:utf-8
+
+"""
+@date: 20180820
+@author: David
+"""
+
+from sqlalchemy import create_engine
+import datetime as dt
+import pandas as pd
+
+engine = create_engine('mysql+pymysql://ops:ops!@#9988@47.74.249.179:3308/vic_5mk')
+with engine.connect()

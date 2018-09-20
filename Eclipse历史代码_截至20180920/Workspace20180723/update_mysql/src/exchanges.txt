@@ -1,0 +1,3931 @@
+Symbol ID: BITFINEX_SPOT_SEN_BTC
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: SEN
+Asset ID quote: BTC
+Symbol ID: BITFINEX_SPOT_SEN_ETH
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: SEN
+Asset ID quote: ETH
+Symbol ID: BITFINEX_SPOT_SEN_USD
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: SEN
+Asset ID quote: USD
+Symbol ID: BITFINEX_SPOT_ZCN_BTC
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: ZCN
+Asset ID quote: BTC
+Symbol ID: BITFINEX_SPOT_ZCN_ETH
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: ZCN
+Asset ID quote: ETH
+Symbol ID: BITFINEX_SPOT_ZCN_USD
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: ZCN
+Asset ID quote: USD
+Symbol ID: HITBTC_SPOT_BCH_DAI
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: BCH
+Asset ID quote: DAI
+Symbol ID: HITBTC_SPOT_BCH_TUSD
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: BCH
+Asset ID quote: TUSD
+Symbol ID: HITBTC_SPOT_BTC_DAI
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: BTC
+Asset ID quote: DAI
+Symbol ID: HITBTC_SPOT_BTC_TUSD
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: BTC
+Asset ID quote: TUSD
+Symbol ID: HITBTC_SPOT_EOS_DAI
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: EOS
+Asset ID quote: DAI
+Symbol ID: HITBTC_SPOT_ETH_DAI
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: ETH
+Asset ID quote: DAI
+Symbol ID: HITBTC_SPOT_ETH_TUSD
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: ETH
+Asset ID quote: TUSD
+Symbol ID: HITBTC_SPOT_LTC_DAI
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: LTC
+Asset ID quote: DAI
+Symbol ID: HITBTC_SPOT_LTC_TUSD
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: LTC
+Asset ID quote: TUSD
+Symbol ID: HITBTC_SPOT_MKR_BTC
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: MKR
+Asset ID quote: BTC
+Symbol ID: HITBTC_SPOT_MKR_DAI
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: MKR
+Asset ID quote: DAI
+Symbol ID: HITBTC_SPOT_MKR_ETH
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: MKR
+Asset ID quote: ETH
+Symbol ID: HITBTC_SPOT_MKR_USDT
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: MKR
+Asset ID quote: USDT
+Symbol ID: HITBTC_SPOT_NEO_DAI
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: NEO
+Asset ID quote: DAI
+Symbol ID: HITBTC_SPOT_NEO_TUSD
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: NEO
+Asset ID quote: TUSD
+Symbol ID: HITBTC_SPOT_NEXO_ETH
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: NEXO
+Asset ID quote: ETH
+Symbol ID: HITBTC_SPOT_NEXO_USDT
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: NEXO
+Asset ID quote: USDT
+Symbol ID: HITBTC_SPOT_TUSD_DAI
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: TUSD
+Asset ID quote: DAI
+Symbol ID: HITBTC_SPOT_USDT_DAI
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: USDT
+Asset ID quote: DAI
+Symbol ID: HITBTC_SPOT_USDT_TUSD
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: USDT
+Asset ID quote: TUSD
+Symbol ID: HITBTC_SPOT_XMR_DAI
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: XMR
+Asset ID quote: DAI
+Symbol ID: HITBTC_SPOT_XMR_TUSD
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: XMR
+Asset ID quote: TUSD
+Symbol ID: HITBTC_SPOT_XRP_DAI
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: XRP
+Asset ID quote: DAI
+Symbol ID: HITBTC_SPOT_ZRX_TUSD
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: ZRX
+Asset ID quote: TUSD
+Symbol ID: INDEPENDENTRESERVE_SPOT_XRP_AUD
+Exchange ID: INDEPENDENTRESERVE
+Symbol type: SPOT
+Asset ID base: XRP
+Asset ID quote: AUD
+Symbol ID: INDEPENDENTRESERVE_SPOT_XRP_NZD
+Exchange ID: INDEPENDENTRESERVE
+Symbol type: SPOT
+Asset ID base: XRP
+Asset ID quote: NZD
+Symbol ID: INDEPENDENTRESERVE_SPOT_XRP_USD
+Exchange ID: INDEPENDENTRESERVE
+Symbol type: SPOT
+Asset ID base: XRP
+Asset ID quote: USD
+Symbol ID: CHBTC_SPOT_EOS_CNY
+Exchange ID: CHBTC
+Symbol type: SPOT
+Asset ID base: EOS
+Asset ID quote: CNY
+Symbol ID: CRYPTOPIA_SPOT_DIRTY_BTC
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: DIRTY
+Asset ID quote: BTC
+Symbol ID: CRYPTOPIA_SPOT_DIRTY_FTC
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: DIRTY
+Asset ID quote: FTC
+Symbol ID: CRYPTOPIA_SPOT_DIRTY_POP
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: DIRTY
+Asset ID quote: POP
+Symbol ID: CRYPTOPIA_SPOT_DIRTY_HTML
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: DIRTY
+Asset ID quote: HTML
+Symbol ID: BITTREX_SPOT_BKX_BTC
+Exchange ID: BITTREX
+Symbol type: SPOT
+Asset ID base: BKX
+Asset ID quote: BTC
+Symbol ID: CRYPTOPIA_SPOT_IQ_BTC
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: IQ
+Asset ID quote: BTC
+Symbol ID: CRYPTOPIA_SPOT_IQ_LTC
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: IQ
+Asset ID quote: LTC
+Symbol ID: CRYPTOPIA_SPOT_IQ_DOGE
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: IQ
+Asset ID quote: DOGE
+Symbol ID: CRYPTOPIA_SPOT_IVY_BTC
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: IVY
+Asset ID quote: BTC
+Symbol ID: CRYPTOPIA_SPOT_IVY_LTC
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: IVY
+Asset ID quote: LTC
+Symbol ID: CRYPTOPIA_SPOT_IVY_DOGE
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: IVY
+Asset ID quote: DOGE
+Symbol ID: CRYPTOPIA_SPOT_XWC_BTC
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: XWC
+Asset ID quote: BTC
+Symbol ID: CRYPTOPIA_SPOT_XWC_LTC
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: XWC
+Asset ID quote: LTC
+Symbol ID: CRYPTOPIA_SPOT_XWC_DOGE
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: XWC
+Asset ID quote: DOGE
+Symbol ID: CRYPTOPIA_SPOT_FROST_BTC
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: FROST
+Asset ID quote: BTC
+Symbol ID: CRYPTOPIA_SPOT_FROST_LTC
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: FROST
+Asset ID quote: LTC
+Symbol ID: CRYPTOPIA_SPOT_FROST_DOGE
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: FROST
+Asset ID quote: DOGE
+Symbol ID: OKEX_SPOT_CIT_OKB
+Exchange ID: OKEX
+Symbol type: SPOT
+Asset ID base: CIT
+Asset ID quote: OKB
+Symbol ID: OKEX_SPOT_LET_BTC
+Exchange ID: OKEX
+Symbol type: SPOT
+Asset ID base: LET
+Asset ID quote: BTC
+Symbol ID: OKEX_SPOT_LET_USDT
+Exchange ID: OKEX
+Symbol type: SPOT
+Asset ID base: LET
+Asset ID quote: USDT
+Symbol ID: OKEX_SPOT_LET_ETH
+Exchange ID: OKEX
+Symbol type: SPOT
+Asset ID base: LET
+Asset ID quote: ETH
+Symbol ID: YOBIT_SPOT_GST_BTC
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: GST
+Asset ID quote: BTC
+Symbol ID: YOBIT_SPOT_GST_DOGE
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: GST
+Asset ID quote: DOGE
+Symbol ID: YOBIT_SPOT_GST_ETH
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: GST
+Asset ID quote: ETH
+Symbol ID: YOBIT_SPOT_GST_RUB
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: GST
+Asset ID quote: RUB
+Symbol ID: YOBIT_SPOT_GST_USD
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: GST
+Asset ID quote: USD
+Symbol ID: YOBIT_SPOT_GST_WAVES
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: GST
+Asset ID quote: WAVES
+Symbol ID: HITBTC_SPOT_APPC_BTC
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: APPC
+Asset ID quote: BTC
+Symbol ID: HITBTC_SPOT_APPC_ETH
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: APPC
+Asset ID quote: ETH
+Symbol ID: HITBTC_SPOT_APPC_USDT
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: APPC
+Asset ID quote: USDT
+Symbol ID: HITBTC_SPOT_BIT_ETH
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: BIT
+Asset ID quote: ETH
+Symbol ID: HITBTC_SPOT_DWS_BTC
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: DWS
+Asset ID quote: BTC
+Symbol ID: HITBTC_SPOT_DWS_ETH
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: DWS
+Asset ID quote: ETH
+Symbol ID: HITBTC_SPOT_DWS_USDT
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: DWS
+Asset ID quote: USDT
+Symbol ID: QUADRIGACX_SPOT_BCH_BTC
+Exchange ID: QUADRIGACX
+Symbol type: SPOT
+Asset ID base: BCH
+Asset ID quote: BTC
+Symbol ID: QUADRIGACX_SPOT_BCH_CAD
+Exchange ID: QUADRIGACX
+Symbol type: SPOT
+Asset ID base: BCH
+Asset ID quote: CAD
+Symbol ID: QUADRIGACX_SPOT_BTG_BTC
+Exchange ID: QUADRIGACX
+Symbol type: SPOT
+Asset ID base: BTG
+Asset ID quote: BTC
+Symbol ID: QUADRIGACX_SPOT_BTG_CAD
+Exchange ID: QUADRIGACX
+Symbol type: SPOT
+Asset ID base: BTG
+Asset ID quote: CAD
+Symbol ID: QUADRIGACX_SPOT_LTC_BTC
+Exchange ID: QUADRIGACX
+Symbol type: SPOT
+Asset ID base: LTC
+Asset ID quote: BTC
+Symbol ID: QUADRIGACX_SPOT_LTC_CAD
+Exchange ID: QUADRIGACX
+Symbol type: SPOT
+Asset ID base: LTC
+Asset ID quote: CAD
+Symbol ID: CRYPTOPIA_SPOT_RYO_BTC
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: RYO
+Asset ID quote: BTC
+Symbol ID: CRYPTOPIA_SPOT_RYO_LTC
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: RYO
+Asset ID quote: LTC
+Symbol ID: CRYPTOPIA_SPOT_RYO_DOGE
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: RYO
+Asset ID quote: DOGE
+Symbol ID: WEXNZ_SPOT_BTC_USDT
+Exchange ID: WEXNZ
+Symbol type: SPOT
+Asset ID base: BTC
+Asset ID quote: USDT
+Symbol ID: CRYPTOPIA_SPOT_OPCX_BTC
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: OPCX
+Asset ID quote: BTC
+Symbol ID: CRYPTOPIA_SPOT_OPCX_LTC
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: OPCX
+Asset ID quote: LTC
+Symbol ID: CRYPTOPIA_SPOT_OPCX_DOGE
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: OPCX
+Asset ID quote: DOGE
+Symbol ID: GATEIO_SPOT_GARD_ETH
+Exchange ID: GATEIO
+Symbol type: SPOT
+Asset ID base: GARD
+Asset ID quote: ETH
+Symbol ID: GATEIO_SPOT_GARD_USDT
+Exchange ID: GATEIO
+Symbol type: SPOT
+Asset ID base: GARD
+Asset ID quote: USDT
+Symbol ID: DERIBIT_OPT_BTC_USD_180720_5500_C
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: True
+Option strike price: 5500.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-20T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180720_5500_P
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: False
+Option strike price: 5500.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-20T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180720_5750_C
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: True
+Option strike price: 5750.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-20T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180720_5750_P
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: False
+Option strike price: 5750.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-20T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180720_6000_C
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: True
+Option strike price: 6000.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-20T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180720_6000_P
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: False
+Option strike price: 6000.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-20T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180720_6250_C
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: True
+Option strike price: 6250.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-20T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180720_6250_P
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: False
+Option strike price: 6250.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-20T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180720_6500_C
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: True
+Option strike price: 6500.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-20T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180720_6500_P
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: False
+Option strike price: 6500.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-20T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180720_6750_C
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: True
+Option strike price: 6750.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-20T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180720_6750_P
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: False
+Option strike price: 6750.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-20T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180720_7000_C
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: True
+Option strike price: 7000.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-20T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180720_7000_P
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: False
+Option strike price: 7000.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-20T10:00:00.0000000Z
+Symbol ID: OKEX_SPOT_HPB_OKB
+Exchange ID: OKEX
+Symbol type: SPOT
+Asset ID base: HPB
+Asset ID quote: OKB
+Symbol ID: DERIBIT_OPT_BTC_USD_180720_5250_C
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: True
+Option strike price: 5250.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-20T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180720_5250_P
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: False
+Option strike price: 5250.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-20T10:00:00.0000000Z
+Symbol ID: YOBIT_SPOT_FTEC_BTC
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: FTEC
+Asset ID quote: BTC
+Symbol ID: YOBIT_SPOT_FTEC_DOGE
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: FTEC
+Asset ID quote: DOGE
+Symbol ID: YOBIT_SPOT_FTEC_ETH
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: FTEC
+Asset ID quote: ETH
+Symbol ID: YOBIT_SPOT_FTEC_RUB
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: FTEC
+Asset ID quote: RUB
+Symbol ID: YOBIT_SPOT_FTEC_USD
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: FTEC
+Asset ID quote: USD
+Symbol ID: YOBIT_SPOT_FTEC_WAVES
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: FTEC
+Asset ID quote: WAVES
+Symbol ID: YOBIT_SPOT_GALAX_BTC
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: GALAX
+Asset ID quote: BTC
+Symbol ID: YOBIT_SPOT_GALAX_DOGE
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: GALAX
+Asset ID quote: DOGE
+Symbol ID: YOBIT_SPOT_GALAX_ETH
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: GALAX
+Asset ID quote: ETH
+Symbol ID: YOBIT_SPOT_GALAX_RUB
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: GALAX
+Asset ID quote: RUB
+Symbol ID: YOBIT_SPOT_GALAX_USD
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: GALAX
+Asset ID quote: USD
+Symbol ID: YOBIT_SPOT_GALAX_WAVES
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: GALAX
+Asset ID quote: WAVES
+Symbol ID: YOBIT_SPOT_NPXS_BTC
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: NPXS
+Asset ID quote: BTC
+Symbol ID: YOBIT_SPOT_NPXS_DOGE
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: NPXS
+Asset ID quote: DOGE
+Symbol ID: YOBIT_SPOT_NPXS_ETH
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: NPXS
+Asset ID quote: ETH
+Symbol ID: YOBIT_SPOT_NPXS_RUB
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: NPXS
+Asset ID quote: RUB
+Symbol ID: YOBIT_SPOT_NPXS_USD
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: NPXS
+Asset ID quote: USD
+Symbol ID: YOBIT_SPOT_NPXS_WAVES
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: NPXS
+Asset ID quote: WAVES
+Symbol ID: YOBIT_SPOT_THETA_BTC
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: THETA
+Asset ID quote: BTC
+Symbol ID: YOBIT_SPOT_THETA_DOGE
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: THETA
+Asset ID quote: DOGE
+Symbol ID: YOBIT_SPOT_THETA_ETH
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: THETA
+Asset ID quote: ETH
+Symbol ID: YOBIT_SPOT_THETA_RUB
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: THETA
+Asset ID quote: RUB
+Symbol ID: YOBIT_SPOT_THETA_USD
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: THETA
+Asset ID quote: USD
+Symbol ID: YOBIT_SPOT_THETA_WAVES
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: THETA
+Asset ID quote: WAVES
+Symbol ID: YOBIT_SPOT_WTC_BTC
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: WTC
+Asset ID quote: BTC
+Symbol ID: YOBIT_SPOT_WTC_DOGE
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: WTC
+Asset ID quote: DOGE
+Symbol ID: YOBIT_SPOT_WTC_ETH
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: WTC
+Asset ID quote: ETH
+Symbol ID: YOBIT_SPOT_WTC_RUB
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: WTC
+Asset ID quote: RUB
+Symbol ID: YOBIT_SPOT_WTC_USD
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: WTC
+Asset ID quote: USD
+Symbol ID: YOBIT_SPOT_WTC_WAVES
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: WTC
+Asset ID quote: WAVES
+Symbol ID: BITTREX_SPOT_MFT_BTC
+Exchange ID: BITTREX
+Symbol type: SPOT
+Asset ID base: MFT
+Asset ID quote: BTC
+Symbol ID: CRYPTOPIA_SPOT_DGB_USDT
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: DGB
+Asset ID quote: USDT
+Symbol ID: CRYPTOPIA_SPOT_CDM_BTC
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: CDM
+Asset ID quote: BTC
+Symbol ID: CRYPTOPIA_SPOT_CDM_LTC
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: CDM
+Asset ID quote: LTC
+Symbol ID: CRYPTOPIA_SPOT_CDM_DOGE
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: CDM
+Asset ID quote: DOGE
+Symbol ID: CRYPTOPIA_SPOT_BOXX_BTC
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: BOXX
+Asset ID quote: BTC
+Symbol ID: CRYPTOPIA_SPOT_BOXX_LTC
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: BOXX
+Asset ID quote: LTC
+Symbol ID: CRYPTOPIA_SPOT_BOXX_DOGE
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: BOXX
+Asset ID quote: DOGE
+Symbol ID: DERIBIT_OPT_BTC_USD_180727_6250_C
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: True
+Option strike price: 6250.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-27T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180727_6250_P
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: False
+Option strike price: 6250.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-27T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180720_7250_C
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: True
+Option strike price: 7250.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-20T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180720_7250_P
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: False
+Option strike price: 7250.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-20T10:00:00.0000000Z
+Symbol ID: GATEIO_SPOT_BU_ETH
+Exchange ID: GATEIO
+Symbol type: SPOT
+Asset ID base: BU
+Asset ID quote: ETH
+Symbol ID: GATEIO_SPOT_BU_USDT
+Exchange ID: GATEIO
+Symbol type: SPOT
+Asset ID base: BU
+Asset ID quote: USDT
+Symbol ID: DERIBIT_OPT_BTC_USD_180720_7500_C
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: True
+Option strike price: 7500.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-20T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180720_7500_P
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: False
+Option strike price: 7500.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-20T10:00:00.0000000Z
+Symbol ID: GATEIO_SPOT_IQ_ETH
+Exchange ID: GATEIO
+Symbol type: SPOT
+Asset ID base: IQ
+Asset ID quote: ETH
+Symbol ID: HITBTC_SPOT_REX_BTC
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: REX
+Asset ID quote: BTC
+Symbol ID: HITBTC_SPOT_REX_ETH
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: REX
+Asset ID quote: ETH
+Symbol ID: HITBTC_SPOT_REX_USDT
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: REX
+Asset ID quote: USDT
+Symbol ID: HITBTC_SPOT_SPC_BTC
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: SPC
+Asset ID quote: BTC
+Symbol ID: HITBTC_SPOT_SPC_ETH
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: SPC
+Asset ID quote: ETH
+Symbol ID: HITBTC_SPOT_SPC_USDT
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: SPC
+Asset ID quote: USDT
+Symbol ID: OKEX_SPOT_CIT_ETH
+Exchange ID: OKEX
+Symbol type: SPOT
+Asset ID base: CIT
+Asset ID quote: ETH
+Symbol ID: OKEX_SPOT_CIT_BTC
+Exchange ID: OKEX
+Symbol type: SPOT
+Asset ID base: CIT
+Asset ID quote: BTC
+Symbol ID: CRYPTOPIA_SPOT_TRX_DOGE
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: TRX
+Asset ID quote: DOGE
+Symbol ID: OKEX_SPOT_HPB_BTC
+Exchange ID: OKEX
+Symbol type: SPOT
+Asset ID base: HPB
+Asset ID quote: BTC
+Symbol ID: OKEX_SPOT_HPB_ETH
+Exchange ID: OKEX
+Symbol type: SPOT
+Asset ID base: HPB
+Asset ID quote: ETH
+Symbol ID: OKEX_SPOT_HPB_USDT
+Exchange ID: OKEX
+Symbol type: SPOT
+Asset ID base: HPB
+Asset ID quote: USDT
+Symbol ID: GATEIO_SPOT_SOP_ETH
+Exchange ID: GATEIO
+Symbol type: SPOT
+Asset ID base: SOP
+Asset ID quote: ETH
+Symbol ID: YOBIT_SPOT_MET_BTC
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: MET
+Asset ID quote: BTC
+Symbol ID: YOBIT_SPOT_MET_DOGE
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: MET
+Asset ID quote: DOGE
+Symbol ID: YOBIT_SPOT_MET_ETH
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: MET
+Asset ID quote: ETH
+Symbol ID: YOBIT_SPOT_MET_RUB
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: MET
+Asset ID quote: RUB
+Symbol ID: YOBIT_SPOT_MET_USD
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: MET
+Asset ID quote: USD
+Symbol ID: YOBIT_SPOT_MET_WAVES
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: MET
+Asset ID quote: WAVES
+Symbol ID: DERIBIT_OPT_BTC_USD_180720_7750_C
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: True
+Option strike price: 7750.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-20T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180720_7750_P
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: False
+Option strike price: 7750.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-20T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180720_8000_C
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: True
+Option strike price: 8000.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-20T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180720_8000_P
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: False
+Option strike price: 8000.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-20T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180720_8250_C
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: True
+Option strike price: 8250.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-20T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180720_8250_P
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: False
+Option strike price: 8250.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-20T10:00:00.0000000Z
+Symbol ID: BITTREX_SPOT_LOOM_BTC
+Exchange ID: BITTREX
+Symbol type: SPOT
+Asset ID base: LOOM
+Asset ID quote: BTC
+Symbol ID: BITFINEX_SPOT_ATM_ETH
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: ATM
+Asset ID quote: ETH
+Symbol ID: BITFINEX_SPOT_ATM_USD
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: ATM
+Asset ID quote: USD
+Symbol ID: BITFINEX_SPOT_DTA_BTC
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: DTA
+Asset ID quote: BTC
+Symbol ID: BITFINEX_SPOT_DTA_ETH
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: DTA
+Asset ID quote: ETH
+Symbol ID: BITFINEX_SPOT_DTA_USD
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: DTA
+Asset ID quote: USD
+Symbol ID: BITFINEX_SPOT_HOT_BTC
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: HOT
+Asset ID quote: BTC
+Symbol ID: BITFINEX_SPOT_HOT_ETH
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: HOT
+Asset ID quote: ETH
+Symbol ID: BITFINEX_SPOT_HOT_USD
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: HOT
+Asset ID quote: USD
+Symbol ID: BITFINEX_SPOT_IQX_BTC
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: IQX
+Asset ID quote: BTC
+Symbol ID: BITFINEX_SPOT_IQX_EOS
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: IQX
+Asset ID quote: EOS
+Symbol ID: BITFINEX_SPOT_IQX_USD
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: IQX
+Asset ID quote: USD
+Symbol ID: CRYPTOPIA_SPOT_GRFT_BTC
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: GRFT
+Asset ID quote: BTC
+Symbol ID: CRYPTOPIA_SPOT_GRFT_LTC
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: GRFT
+Asset ID quote: LTC
+Symbol ID: CRYPTOPIA_SPOT_GRFT_DOGE
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: GRFT
+Asset ID quote: DOGE
+Symbol ID: CRYPTOPIA_SPOT_XXX_BTC
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: XXX
+Asset ID quote: BTC
+Symbol ID: CRYPTOPIA_SPOT_XXX_LTC
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: XXX
+Asset ID quote: LTC
+Symbol ID: CRYPTOPIA_SPOT_XXX_DOGE
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: XXX
+Asset ID quote: DOGE
+Symbol ID: BINANCE_SPOT_ARDR_BTC
+Exchange ID: BINANCE
+Symbol type: SPOT
+Asset ID base: ARDR
+Asset ID quote: BTC
+Symbol ID: BINANCE_SPOT_ARDR_ETH
+Exchange ID: BINANCE
+Symbol type: SPOT
+Asset ID base: ARDR
+Asset ID quote: ETH
+Symbol ID: BINANCE_SPOT_ARDR_BNB
+Exchange ID: BINANCE
+Symbol type: SPOT
+Asset ID base: ARDR
+Asset ID quote: BNB
+Symbol ID: OKEX_SPOT_SDA_OKB
+Exchange ID: OKEX
+Symbol type: SPOT
+Asset ID base: SDA
+Asset ID quote: OKB
+Symbol ID: DERIBIT_OPT_BTC_USD_180727_6750_C
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: True
+Option strike price: 6750.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-27T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180727_6750_P
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: False
+Option strike price: 6750.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-27T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180727_7250_C
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: True
+Option strike price: 7250.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-27T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180727_7250_P
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: False
+Option strike price: 7250.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-27T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180727_7750_C
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: True
+Option strike price: 7750.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-27T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180727_7750_P
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: False
+Option strike price: 7750.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-27T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180727_8250_C
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: True
+Option strike price: 8250.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-27T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180727_8250_P
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: False
+Option strike price: 8250.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-27T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180727_8750_C
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: True
+Option strike price: 8750.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-27T10:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180727_8750_P
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: False
+Option strike price: 8750.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-07-27T10:00:00.0000000Z
+Symbol ID: BITBAY_SPOT_OMG_PLN
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: OMG
+Asset ID quote: PLN
+Symbol ID: HITBTC_SPOT_BCD_BTC
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: BCD
+Asset ID quote: BTC
+Symbol ID: HITBTC_SPOT_BCD_USDT
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: BCD
+Asset ID quote: USDT
+Symbol ID: HITBTC_SPOT_COSM_BTC
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: COSM
+Asset ID quote: BTC
+Symbol ID: HITBTC_SPOT_COSM_ETH
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: COSM
+Asset ID quote: ETH
+Symbol ID: HITBTC_SPOT_CVCOIN_BTC
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: CVCOIN
+Asset ID quote: BTC
+Symbol ID: HITBTC_SPOT_CVCOIN_ETH
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: CVCOIN
+Asset ID quote: ETH
+Symbol ID: HITBTC_SPOT_CVCOIN_USDT
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: CVCOIN
+Asset ID quote: USDT
+Symbol ID: HITBTC_SPOT_EBKC_ETH
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: EBKC
+Asset ID quote: ETH
+Symbol ID: HITBTC_SPOT_EBKC_USDT
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: EBKC
+Asset ID quote: USDT
+Symbol ID: HITBTC_SPOT_EDG_ETH
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: EDG
+Asset ID quote: ETH
+Symbol ID: HITBTC_SPOT_EDG_USDT
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: EDG
+Asset ID quote: USDT
+Symbol ID: HITBTC_SPOT_ELF_BTC
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: ELF
+Asset ID quote: BTC
+Symbol ID: HITBTC_SPOT_ELF_USDT
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: ELF
+Asset ID quote: USDT
+Symbol ID: HITBTC_SPOT_HQX_ETH
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: HQX
+Asset ID quote: ETH
+Symbol ID: HITBTC_SPOT_HQX_USDT
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: HQX
+Asset ID quote: USDT
+Symbol ID: BITBAY_SPOT_GNT_PLN
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: GNT
+Asset ID quote: PLN
+Symbol ID: BITBAY_SPOT_FTO_PLN
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: FTO
+Asset ID quote: PLN
+Symbol ID: BITBAY_SPOT_OMG_BTC
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: OMG
+Asset ID quote: BTC
+Symbol ID: BITBAY_SPOT_GNT_BTC
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: GNT
+Asset ID quote: BTC
+Symbol ID: BITBAY_SPOT_FTO_BTC
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: FTO
+Asset ID quote: BTC
+Symbol ID: BITBAY_SPOT_OMG_EUR
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: OMG
+Asset ID quote: EUR
+Symbol ID: BITBAY_SPOT_OMG_USD
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: OMG
+Asset ID quote: USD
+Symbol ID: BITBAY_SPOT_FTO_USD
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: FTO
+Asset ID quote: USD
+Symbol ID: GATEIO_SPOT_SOP_USDT
+Exchange ID: GATEIO
+Symbol type: SPOT
+Asset ID base: SOP
+Asset ID quote: USDT
+Symbol ID: BITBAY_SPOT_GNT_EUR
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: GNT
+Asset ID quote: EUR
+Symbol ID: BITBAY_SPOT_GNT_USD
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: GNT
+Asset ID quote: USD
+Symbol ID: BITBAY_SPOT_FTO_EUR
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: FTO
+Asset ID quote: EUR
+Symbol ID: DERIBIT_FTS_BTC_USD_180831
+Exchange ID: DERIBIT
+Symbol type: FUTURES
+Asset ID base: BTC
+Asset ID quote: USD
+Future delivery time: 2018-08-31T10:00:00.0000000Z
+Symbol ID: ACX_SPOT_LTC_AUD
+Exchange ID: ACX
+Symbol type: SPOT
+Asset ID base: LTC
+Asset ID quote: AUD
+Symbol ID: LIVECOIN_SPOT_ECO_BTC
+Exchange ID: LIVECOIN
+Symbol type: SPOT
+Asset ID base: ECO
+Asset ID quote: BTC
+Symbol ID: LIVECOIN_SPOT_ECO_ETH
+Exchange ID: LIVECOIN
+Symbol type: SPOT
+Asset ID base: ECO
+Asset ID quote: ETH
+Symbol ID: BINANCE_SPOT_NULS_USDT
+Exchange ID: BINANCE
+Symbol type: SPOT
+Asset ID base: NULS
+Asset ID quote: USDT
+Symbol ID: GATEIO_SPOT_PLY_ETH
+Exchange ID: GATEIO
+Symbol type: SPOT
+Asset ID base: PLY
+Asset ID quote: ETH
+Symbol ID: OKEX_SPOT_SDA_BTC
+Exchange ID: OKEX
+Symbol type: SPOT
+Asset ID base: SDA
+Asset ID quote: BTC
+Symbol ID: OKEX_SPOT_ADA_BTC
+Exchange ID: OKEX
+Symbol type: SPOT
+Asset ID base: ADA
+Asset ID quote: BTC
+Symbol ID: OKEX_SPOT_ADA_ETH
+Exchange ID: OKEX
+Symbol type: SPOT
+Asset ID base: ADA
+Asset ID quote: ETH
+Symbol ID: OKEX_SPOT_ADA_OKB
+Exchange ID: OKEX
+Symbol type: SPOT
+Asset ID base: ADA
+Asset ID quote: OKB
+Symbol ID: OKEX_SPOT_ADA_USDT
+Exchange ID: OKEX
+Symbol type: SPOT
+Asset ID base: ADA
+Asset ID quote: USDT
+Symbol ID: OKEX_SPOT_SDA_ETH
+Exchange ID: OKEX
+Symbol type: SPOT
+Asset ID base: SDA
+Asset ID quote: ETH
+Symbol ID: HITBTC_SPOT_DCNT_BTC
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: DCNT
+Asset ID quote: BTC
+Symbol ID: HITBTC_SPOT_DCNT_ETH
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: DCNT
+Asset ID quote: ETH
+Symbol ID: HITBTC_SPOT_DCNT_USDT
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: DCNT
+Asset ID quote: USDT
+Symbol ID: GATEIO_SPOT_VET_USDT
+Exchange ID: GATEIO
+Symbol type: SPOT
+Asset ID base: VET
+Asset ID quote: USDT
+Symbol ID: GATEIO_SPOT_VET_ETH
+Exchange ID: GATEIO
+Symbol type: SPOT
+Asset ID base: VET
+Asset ID quote: ETH
+Symbol ID: LIQUI_SPOT_HOT_BTC
+Exchange ID: LIQUI
+Symbol type: SPOT
+Asset ID base: HOT
+Asset ID quote: BTC
+Symbol ID: LIQUI_SPOT_HOT_ETH
+Exchange ID: LIQUI
+Symbol type: SPOT
+Asset ID base: HOT
+Asset ID quote: ETH
+Symbol ID: LIQUI_SPOT_HOT_USDT
+Exchange ID: LIQUI
+Symbol type: SPOT
+Asset ID base: HOT
+Asset ID quote: USDT
+Symbol ID: HITBTC_SPOT_BCH_EURS
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: BCH
+Asset ID quote: EURS
+Symbol ID: HITBTC_SPOT_BTC_EURS
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: BTC
+Asset ID quote: EURS
+Symbol ID: HITBTC_SPOT_DASH_EURS
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: DASH
+Asset ID quote: EURS
+Symbol ID: HITBTC_SPOT_EOS_EURS
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: EOS
+Asset ID quote: EURS
+Symbol ID: HITBTC_SPOT_ETH_EURS
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: ETH
+Asset ID quote: EURS
+Symbol ID: HITBTC_SPOT_EURS_USDT
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: EURS
+Asset ID quote: USDT
+Symbol ID: HITBTC_SPOT_LTC_EURS
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: LTC
+Asset ID quote: EURS
+Symbol ID: HITBTC_SPOT_NEO_EURS
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: NEO
+Asset ID quote: EURS
+Symbol ID: HITBTC_SPOT_XMR_EURS
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: XMR
+Asset ID quote: EURS
+Symbol ID: HITBTC_SPOT_XRP_EURS
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: XRP
+Asset ID quote: EURS
+Symbol ID: HITBTC_SPOT_ZEC_EURS
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: ZEC
+Asset ID quote: EURS
+Symbol ID: YOBIT_SPOT_FTM_BTC
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: FTM
+Asset ID quote: BTC
+Symbol ID: YOBIT_SPOT_FTM_DOGE
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: FTM
+Asset ID quote: DOGE
+Symbol ID: YOBIT_SPOT_FTM_ETH
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: FTM
+Asset ID quote: ETH
+Symbol ID: YOBIT_SPOT_FTM_RUB
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: FTM
+Asset ID quote: RUB
+Symbol ID: YOBIT_SPOT_FTM_USD
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: FTM
+Asset ID quote: USD
+Symbol ID: YOBIT_SPOT_FTM_WAVES
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: FTM
+Asset ID quote: WAVES
+Symbol ID: YOBIT_SPOT_REN_BTC
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: REN
+Asset ID quote: BTC
+Symbol ID: YOBIT_SPOT_REN_DOGE
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: REN
+Asset ID quote: DOGE
+Symbol ID: YOBIT_SPOT_REN_ETH
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: REN
+Asset ID quote: ETH
+Symbol ID: YOBIT_SPOT_REN_RUB
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: REN
+Asset ID quote: RUB
+Symbol ID: YOBIT_SPOT_REN_USD
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: REN
+Asset ID quote: USD
+Symbol ID: YOBIT_SPOT_REN_WAVES
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: REN
+Asset ID quote: WAVES
+Symbol ID: YOBIT_SPOT_TFD_BTC
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: TFD
+Asset ID quote: BTC
+Symbol ID: YOBIT_SPOT_TFD_DOGE
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: TFD
+Asset ID quote: DOGE
+Symbol ID: YOBIT_SPOT_TFD_ETH
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: TFD
+Asset ID quote: ETH
+Symbol ID: YOBIT_SPOT_TFD_RUB
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: TFD
+Asset ID quote: RUB
+Symbol ID: YOBIT_SPOT_TFD_USD
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: TFD
+Asset ID quote: USD
+Symbol ID: YOBIT_SPOT_TFD_WAVES
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: TFD
+Asset ID quote: WAVES
+Symbol ID: HITBTC_SPOT_EURS_DAI
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: EURS
+Asset ID quote: DAI
+Symbol ID: HITBTC_SPOT_EURS_TUSD
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: EURS
+Asset ID quote: TUSD
+Symbol ID: BINANCE_SPOT_HOT_BTC
+Exchange ID: BINANCE
+Symbol type: SPOT
+Asset ID base: HOT
+Asset ID quote: BTC
+Symbol ID: BINANCE_SPOT_HOT_ETH
+Exchange ID: BINANCE
+Symbol type: SPOT
+Asset ID base: HOT
+Asset ID quote: ETH
+Symbol ID: OKEX_SPOT_HYC_BTC
+Exchange ID: OKEX
+Symbol type: SPOT
+Asset ID base: HYC
+Asset ID quote: BTC
+Symbol ID: OKEX_SPOT_HYC_ETH
+Exchange ID: OKEX
+Symbol type: SPOT
+Asset ID base: HYC
+Asset ID quote: ETH
+Symbol ID: BINANCE_SPOT_VET_BTC
+Exchange ID: BINANCE
+Symbol type: SPOT
+Asset ID base: VET
+Asset ID quote: BTC
+Symbol ID: BINANCE_SPOT_VET_ETH
+Exchange ID: BINANCE
+Symbol type: SPOT
+Asset ID base: VET
+Asset ID quote: ETH
+Symbol ID: BINANCE_SPOT_VET_USDT
+Exchange ID: BINANCE
+Symbol type: SPOT
+Asset ID base: VET
+Asset ID quote: USDT
+Symbol ID: BINANCE_SPOT_VET_BNB
+Exchange ID: BINANCE
+Symbol type: SPOT
+Asset ID base: VET
+Asset ID quote: BNB
+Symbol ID: LIQUI_SPOT_TTU_BTC
+Exchange ID: LIQUI
+Symbol type: SPOT
+Asset ID base: TTU
+Asset ID quote: BTC
+Symbol ID: LIQUI_SPOT_TTU_ETH
+Exchange ID: LIQUI
+Symbol type: SPOT
+Asset ID base: TTU
+Asset ID quote: ETH
+Symbol ID: LIQUI_SPOT_TTU_USDT
+Exchange ID: LIQUI
+Symbol type: SPOT
+Asset ID base: TTU
+Asset ID quote: USDT
+Symbol ID: BITTREX_SPOT_RFR_BTC
+Exchange ID: BITTREX
+Symbol type: SPOT
+Asset ID base: RFR
+Asset ID quote: BTC
+Symbol ID: EXMO_SPOT_OMG_BTC
+Exchange ID: EXMO
+Symbol type: SPOT
+Asset ID base: OMG
+Asset ID quote: BTC
+Symbol ID: EXMO_SPOT_OMG_ETH
+Exchange ID: EXMO
+Symbol type: SPOT
+Asset ID base: OMG
+Asset ID quote: ETH
+Symbol ID: EXMO_SPOT_OMG_USD
+Exchange ID: EXMO
+Symbol type: SPOT
+Asset ID base: OMG
+Asset ID quote: USD
+Symbol ID: EXMO_SPOT_MNX_BTC
+Exchange ID: EXMO
+Symbol type: SPOT
+Asset ID base: MNX
+Asset ID quote: BTC
+Symbol ID: EXMO_SPOT_MNX_USD
+Exchange ID: EXMO
+Symbol type: SPOT
+Asset ID base: MNX
+Asset ID quote: USD
+Symbol ID: EXMO_SPOT_MNX_ETH
+Exchange ID: EXMO
+Symbol type: SPOT
+Asset ID base: MNX
+Asset ID quote: ETH
+Symbol ID: DERIBIT_OPT_BTC_USD_180803_7250_C
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: True
+Option strike price: 7250.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-08-03T08:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180803_7250_P
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: False
+Option strike price: 7250.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-08-03T08:00:00.0000000Z
+Symbol ID: LIVECOIN_SPOT_W3C_BTC
+Exchange ID: LIVECOIN
+Symbol type: SPOT
+Asset ID base: W3C
+Asset ID quote: BTC
+Symbol ID: LIVECOIN_SPOT_W3C_ETH
+Exchange ID: LIVECOIN
+Symbol type: SPOT
+Asset ID base: W3C
+Asset ID quote: ETH
+Symbol ID: GATEIO_SPOT_FTI_ETH
+Exchange ID: GATEIO
+Symbol type: SPOT
+Asset ID base: FTI
+Asset ID quote: ETH
+Symbol ID: GATEIO_SPOT_FTI_USDT
+Exchange ID: GATEIO
+Symbol type: SPOT
+Asset ID base: FTI
+Asset ID quote: USDT
+Symbol ID: BITTREX_SPOT_DGB_USDT
+Exchange ID: BITTREX
+Symbol type: SPOT
+Asset ID base: DGB
+Asset ID quote: USDT
+Symbol ID: DERIBIT_OPT_BTC_USD_180803_7000_C
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: True
+Option strike price: 7000.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-08-03T08:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180803_7000_P
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: False
+Option strike price: 7000.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-08-03T08:00:00.0000000Z
+Symbol ID: OKEX_SPOT_HYC_USDT
+Exchange ID: OKEX
+Symbol type: SPOT
+Asset ID base: HYC
+Asset ID quote: USDT
+Symbol ID: DERIBIT_FTS_BTC_USD_181228
+Exchange ID: DERIBIT
+Symbol type: FUTURES
+Asset ID base: BTC
+Asset ID quote: USD
+Future delivery time: 2018-12-28T08:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_200327_45000_P
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: False
+Option strike price: 45000.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2020-03-27T09:00:00.0000000Z
+Symbol ID: BINANCE_SPOT_DOCK_BTC
+Exchange ID: BINANCE
+Symbol type: SPOT
+Asset ID base: DOCK
+Asset ID quote: BTC
+Symbol ID: BINANCE_SPOT_DOCK_ETH
+Exchange ID: BINANCE
+Symbol type: SPOT
+Asset ID base: DOCK
+Asset ID quote: ETH
+Symbol ID: EXMO_SPOT_TRX_RUB
+Exchange ID: EXMO
+Symbol type: SPOT
+Asset ID base: TRX
+Asset ID quote: RUB
+Symbol ID: EXMO_SPOT_TRX_USD
+Exchange ID: EXMO
+Symbol type: SPOT
+Asset ID base: TRX
+Asset ID quote: USD
+Symbol ID: EXMO_SPOT_TRX_BTC
+Exchange ID: EXMO
+Symbol type: SPOT
+Asset ID base: TRX
+Asset ID quote: BTC
+Symbol ID: TIDEX_SPOT_EGT_ETH
+Exchange ID: TIDEX
+Symbol type: SPOT
+Asset ID base: EGT
+Asset ID quote: ETH
+Symbol ID: TIDEX_SPOT_EGT_BTC
+Exchange ID: TIDEX
+Symbol type: SPOT
+Asset ID base: EGT
+Asset ID quote: BTC
+Symbol ID: HITBTC_SPOT_ROX_ETH
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: ROX
+Asset ID quote: ETH
+Symbol ID: HITBTC_SPOT_ZPR_ETH
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: ZPR
+Asset ID quote: ETH
+Symbol ID: BITFINEX_SPOT_BNT_BTC
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: BNT
+Asset ID quote: BTC
+Symbol ID: BITFINEX_SPOT_BNT_ETH
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: BNT
+Asset ID quote: ETH
+Symbol ID: BITFINEX_SPOT_BNT_USD
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: BNT
+Asset ID quote: USD
+Symbol ID: BITFINEX_SPOT_WPR_BTC
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: WPR
+Asset ID quote: BTC
+Symbol ID: BITFINEX_SPOT_WPR_ETH
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: WPR
+Asset ID quote: ETH
+Symbol ID: BITFINEX_SPOT_WPR_USD
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: WPR
+Asset ID quote: USD
+Symbol ID: BITFINEX_SPOT_ZIL_BTC
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: ZIL
+Asset ID quote: BTC
+Symbol ID: BITFINEX_SPOT_ZIL_ETH
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: ZIL
+Asset ID quote: ETH
+Symbol ID: BITFINEX_SPOT_ZIL_USD
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: ZIL
+Asset ID quote: USD
+Symbol ID: BINANCE_SPOT_POLY_BTC
+Exchange ID: BINANCE
+Symbol type: SPOT
+Asset ID base: POLY
+Asset ID quote: BTC
+Symbol ID: BINANCE_SPOT_POLY_BNB
+Exchange ID: BINANCE
+Symbol type: SPOT
+Asset ID base: POLY
+Asset ID quote: BNB
+Symbol ID: HITBTC_SPOT_MNX_BTC
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: MNX
+Asset ID quote: BTC
+Symbol ID: HITBTC_SPOT_MNX_ETH
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: MNX
+Asset ID quote: ETH
+Symbol ID: HITBTC_SPOT_MNX_USDT
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: MNX
+Asset ID quote: USDT
+Symbol ID: POLONIEX_SPOT_EOS_BTC
+Exchange ID: POLONIEX
+Symbol type: SPOT
+Asset ID base: EOS
+Asset ID quote: BTC
+Symbol ID: POLONIEX_SPOT_EOS_ETH
+Exchange ID: POLONIEX
+Symbol type: SPOT
+Asset ID base: EOS
+Asset ID quote: ETH
+Symbol ID: POLONIEX_SPOT_EOS_USDT
+Exchange ID: POLONIEX
+Symbol type: SPOT
+Asset ID base: EOS
+Asset ID quote: USDT
+Symbol ID: CRYPTOPIA_SPOT_BNODE_BTC
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: BNODE
+Asset ID quote: BTC
+Symbol ID: CRYPTOPIA_SPOT_BNODE_LTC
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: BNODE
+Asset ID quote: LTC
+Symbol ID: CRYPTOPIA_SPOT_BNODE_DOGE
+Exchange ID: CRYPTOPIA
+Symbol type: SPOT
+Asset ID base: BNODE
+Asset ID quote: DOGE
+Symbol ID: BITBAY_SPOT_PAY_PLN
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: PAY
+Asset ID quote: PLN
+Symbol ID: BITBAY_SPOT_ZRX_PLN
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: ZRX
+Asset ID quote: PLN
+Symbol ID: BITBAY_SPOT_BAT_PLN
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: BAT
+Asset ID quote: PLN
+Symbol ID: BITBAY_SPOT_REP_PLN
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: REP
+Asset ID quote: PLN
+Symbol ID: BITBAY_SPOT_PAY_BTC
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: PAY
+Asset ID quote: BTC
+Symbol ID: BITBAY_SPOT_BAT_BTC
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: BAT
+Asset ID quote: BTC
+Symbol ID: BITBAY_SPOT_REP_BTC
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: REP
+Asset ID quote: BTC
+Symbol ID: BITBAY_SPOT_ZRX_BTC
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: ZRX
+Asset ID quote: BTC
+Symbol ID: BITBAY_SPOT_ZRX_USD
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: ZRX
+Asset ID quote: USD
+Symbol ID: BITBAY_SPOT_BA_TUSD
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: BA
+Asset ID quote: TUSD
+Symbol ID: BITBAY_SPOT_REP_USD
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: REP
+Asset ID quote: USD
+Symbol ID: BITBAY_SPOT_BAT_EUR
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: BAT
+Asset ID quote: EUR
+Symbol ID: BITBAY_SPOT_REP_EUR
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: REP
+Asset ID quote: EUR
+Symbol ID: BITBAY_SPOT_ZRX_EUR
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: ZRX
+Asset ID quote: EUR
+Symbol ID: BITBAY_SPOT_PAY_EUR
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: PAY
+Asset ID quote: EUR
+Symbol ID: BITBAY_SPOT_PAY_USD
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: PAY
+Asset ID quote: USD
+Symbol ID: YOBIT_SPOT_FC_RUB
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: FC
+Asset ID quote: RUB
+Symbol ID: YOBIT_SPOT_FC_WAVES
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: FC
+Asset ID quote: WAVES
+Symbol ID: DERIBIT_OPT_BTC_USD_180810_6750_C
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: True
+Option strike price: 6750.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-08-10T08:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180810_6750_P
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: False
+Option strike price: 6750.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-08-10T08:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180810_7000_C
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: True
+Option strike price: 7000.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-08-10T08:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180810_7000_P
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: False
+Option strike price: 7000.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-08-10T08:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180810_7250_C
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: True
+Option strike price: 7250.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-08-10T08:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180810_7250_P
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: False
+Option strike price: 7250.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-08-10T08:00:00.0000000Z
+Symbol ID: OKEX_SPOT_VITE_OKB
+Exchange ID: OKEX
+Symbol type: SPOT
+Asset ID base: VITE
+Asset ID quote: OKB
+Symbol ID: BITMEX_FTS_ETH_USD_010101
+Exchange ID: BITMEX
+Symbol type: FUTURES
+Asset ID base: ETH
+Asset ID quote: USD
+Future delivery time: 0001-01-01T00:00:00.0000000Z
+Symbol ID: GATEIO_SPOT_HIT_ETH
+Exchange ID: GATEIO
+Symbol type: SPOT
+Asset ID base: HIT
+Asset ID quote: ETH
+Symbol ID: GATEIO_SPOT_HIT_USDT
+Exchange ID: GATEIO
+Symbol type: SPOT
+Asset ID base: HIT
+Asset ID quote: USDT
+Symbol ID: DERIBIT_OPT_BTC_USD_180810_6500_C
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: True
+Option strike price: 6500.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-08-10T08:00:00.0000000Z
+Symbol ID: DERIBIT_OPT_BTC_USD_180810_6500_P
+Exchange ID: DERIBIT
+Symbol type: OPTION
+Asset ID base: BTC
+Asset ID quote: USD
+Option type is call: False
+Option strike price: 6500.0
+Option contract unit: 1.0
+Option exercise style: EUROPEAN
+Option expiration time: 2018-08-10T08:00:00.0000000Z
+Symbol ID: TIDEX_SPOT_ENGT_BTC
+Exchange ID: TIDEX
+Symbol type: SPOT
+Asset ID base: ENGT
+Asset ID quote: BTC
+Symbol ID: TIDEX_SPOT_ENGT_ETH
+Exchange ID: TIDEX
+Symbol type: SPOT
+Asset ID base: ENGT
+Asset ID quote: ETH
+Symbol ID: ACX_SPOT_BTC_USDT
+Exchange ID: ACX
+Symbol type: SPOT
+Asset ID base: BTC
+Asset ID quote: USDT
+Symbol ID: HITBTC_SPOT_KIND_BTC
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: KIND
+Asset ID quote: BTC
+Symbol ID: HITBTC_SPOT_KIND_ETH
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: KIND
+Asset ID quote: ETH
+Symbol ID: GATEIO_SPOT_BU_BTC
+Exchange ID: GATEIO
+Symbol type: SPOT
+Asset ID base: BU
+Asset ID quote: BTC
+Symbol ID: OKEX_SPOT_VITE_BTC
+Exchange ID: OKEX
+Symbol type: SPOT
+Asset ID base: VITE
+Asset ID quote: BTC
+Symbol ID: OKEX_SPOT_VITE_ETH
+Exchange ID: OKEX
+Symbol type: SPOT
+Asset ID base: VITE
+Asset ID quote: ETH
+Symbol ID: LIVECOIN_SPOT_SNBL_BTC
+Exchange ID: LIVECOIN
+Symbol type: SPOT
+Asset ID base: SNBL
+Asset ID quote: BTC
+Symbol ID: LIVECOIN_SPOT_SNBL_ETH
+Exchange ID: LIVECOIN
+Symbol type: SPOT
+Asset ID base: SNBL
+Asset ID quote: ETH
+Symbol ID: GATEIO_SPOT_DX_ETH
+Exchange ID: GATEIO
+Symbol type: SPOT
+Asset ID base: DX
+Asset ID quote: ETH
+Symbol ID: GATEIO_SPOT_DX_USDT
+Exchange ID: GATEIO
+Symbol type: SPOT
+Asset ID base: DX
+Asset ID quote: USDT
+Symbol ID: OKEX_SPOT_HIT_ETH
+Exchange ID: OKEX
+Symbol type: SPOT
+Asset ID base: HIT
+Asset ID quote: ETH
+Symbol ID: OKEX_SPOT_HIT_BTC
+Exchange ID: OKEX
+Symbol type: SPOT
+Asset ID base: HIT
+Asset ID quote: BTC
+Symbol ID: COINBASE_SPOT_ETC_BTC
+Exchange ID: COINBASE
+Symbol type: SPOT
+Asset ID base: ETC
+Asset ID quote: BTC
+Symbol ID: COINBASE_SPOT_ETC_EUR
+Exchange ID: COINBASE
+Symbol type: SPOT
+Asset ID base: ETC
+Asset ID quote: EUR
+Symbol ID: COINBASE_SPOT_ETC_USD
+Exchange ID: COINBASE
+Symbol type: SPOT
+Asset ID base: ETC
+Asset ID quote: USD
+Symbol ID: LIVECOIN_SPOT_HB_RUB
+Exchange ID: LIVECOIN
+Symbol type: SPOT
+Asset ID base: HB
+Asset ID quote: RUB
+Symbol ID: LIVECOIN_SPOT_HB_EUR
+Exchange ID: LIVECOIN
+Symbol type: SPOT
+Asset ID base: HB
+Asset ID quote: EUR
+Symbol ID: HITBTC_SPOT_ENGT_BTC
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: ENGT
+Asset ID quote: BTC
+Symbol ID: HITBTC_SPOT_ENGT_ETH
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: ENGT
+Asset ID quote: ETH
+Symbol ID: HITBTC_SPOT_PMA_BTC
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: PMA
+Asset ID quote: BTC
+Symbol ID: HITBTC_SPOT_PMA_ETH
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: PMA
+Asset ID quote: ETH
+Symbol ID: EXMO_SPOT_ADA_BTC
+Exchange ID: EXMO
+Symbol type: SPOT
+Asset ID base: ADA
+Asset ID quote: BTC
+Symbol ID: EXMO_SPOT_ADA_ETH
+Exchange ID: EXMO
+Symbol type: SPOT
+Asset ID base: ADA
+Asset ID quote: ETH
+Symbol ID: EXMO_SPOT_ADA_USD
+Exchange ID: EXMO
+Symbol type: SPOT
+Asset ID base: ADA
+Asset ID quote: USD
+Symbol ID: EXMO_SPOT_INK_BTC
+Exchange ID: EXMO
+Symbol type: SPOT
+Asset ID base: INK
+Asset ID quote: BTC
+Symbol ID: EXMO_SPOT_INK_USD
+Exchange ID: EXMO
+Symbol type: SPOT
+Asset ID base: INK
+Asset ID quote: USD
+Symbol ID: EXMO_SPOT_INK_ETH
+Exchange ID: EXMO
+Symbol type: SPOT
+Asset ID base: INK
+Asset ID quote: ETH
+Symbol ID: ACX_SPOT_ETH_USDT
+Exchange ID: ACX
+Symbol type: SPOT
+Asset ID base: ETH
+Asset ID quote: USDT
+Symbol ID: LIVECOIN_SPOT_ZMN_BTC
+Exchange ID: LIVECOIN
+Symbol type: SPOT
+Asset ID base: ZMN
+Asset ID quote: BTC
+Symbol ID: LIVECOIN_SPOT_ZMN_ETH
+Exchange ID: LIVECOIN
+Symbol type: SPOT
+Asset ID base: ZMN
+Asset ID quote: ETH
+Symbol ID: BITBAY_SPOT_NEU_PLN
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: NEU
+Asset ID quote: PLN
+Symbol ID: BITBAY_SPOT_NEU_BTC
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: NEU
+Asset ID quote: BTC
+Symbol ID: BITBAY_SPOT_NEU_USD
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: NEU
+Asset ID quote: USD
+Symbol ID: BITBAY_SPOT_NEU_EUR
+Exchange ID: BITBAY
+Symbol type: SPOT
+Asset ID base: NEU
+Asset ID quote: EUR
+Symbol ID: BITTREX_SPOT_RVN_BTC
+Exchange ID: BITTREX
+Symbol type: SPOT
+Asset ID base: RVN
+Asset ID quote: BTC
+Symbol ID: GATEIO_SPOT_HC_BTC
+Exchange ID: GATEIO
+Symbol type: SPOT
+Asset ID base: HC
+Asset ID quote: BTC
+Symbol ID: GATEIO_SPOT_HC_ETH
+Exchange ID: GATEIO
+Symbol type: SPOT
+Asset ID base: HC
+Asset ID quote: ETH
+Symbol ID: GATEIO_SPOT_HC_USDT
+Exchange ID: GATEIO
+Symbol type: SPOT
+Asset ID base: HC
+Asset ID quote: USDT
+Symbol ID: OKEX_SPOT_ABL_BTC
+Exchange ID: OKEX
+Symbol type: SPOT
+Asset ID base: ABL
+Asset ID quote: BTC
+Symbol ID: OKEX_SPOT_ABL_ETH
+Exchange ID: OKEX
+Symbol type: SPOT
+Asset ID base: ABL
+Asset ID quote: ETH
+Symbol ID: POLONIEX_SPOT_KNC_BTC
+Exchange ID: POLONIEX
+Symbol type: SPOT
+Asset ID base: KNC
+Asset ID quote: BTC
+Symbol ID: POLONIEX_SPOT_SNT_BTC
+Exchange ID: POLONIEX
+Symbol type: SPOT
+Asset ID base: SNT
+Asset ID quote: BTC
+Symbol ID: POLONIEX_SPOT_KNC_ETH
+Exchange ID: POLONIEX
+Symbol type: SPOT
+Asset ID base: KNC
+Asset ID quote: ETH
+Symbol ID: POLONIEX_SPOT_SNT_ETH
+Exchange ID: POLONIEX
+Symbol type: SPOT
+Asset ID base: SNT
+Asset ID quote: ETH
+Symbol ID: POLONIEX_SPOT_KNC_USDT
+Exchange ID: POLONIEX
+Symbol type: SPOT
+Asset ID base: KNC
+Asset ID quote: USDT
+Symbol ID: POLONIEX_SPOT_SNT_USDT
+Exchange ID: POLONIEX
+Symbol type: SPOT
+Asset ID base: SNT
+Asset ID quote: USDT
+Symbol ID: WEXNZ_SPOT_XMR_USD
+Exchange ID: WEXNZ
+Symbol type: SPOT
+Asset ID base: XMR
+Asset ID quote: USD
+Symbol ID: DSX_SPOT_EURS_USD
+Exchange ID: DSX
+Symbol type: SPOT
+Asset ID base: EURS
+Asset ID quote: USD
+Symbol ID: DSX_SPOT_USDT_EUR
+Exchange ID: DSX
+Symbol type: SPOT
+Asset ID base: USDT
+Asset ID quote: EUR
+Symbol ID: HITBTC_SPOT_BAT_BTC
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: BAT
+Asset ID quote: BTC
+Symbol ID: HITBTC_SPOT_BAT_ETH
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: BAT
+Asset ID quote: ETH
+Symbol ID: HITBTC_SPOT_BAT_USDT
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: BAT
+Asset ID quote: USDT
+Symbol ID: HITBTC_SPOT_SRN_BTC
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: SRN
+Asset ID quote: BTC
+Symbol ID: HITBTC_SPOT_SRN_ETH
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: SRN
+Asset ID quote: ETH
+Symbol ID: HITBTC_SPOT_SRN_USDT
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: SRN
+Asset ID quote: USDT
+Symbol ID: HITBTC_SPOT_SVD_BTC
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: SVD
+Asset ID quote: BTC
+Symbol ID: HITBTC_SPOT_SVD_ETH
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: SVD
+Asset ID quote: ETH
+Symbol ID: HITBTC_SPOT_SVD_USDT
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: SVD
+Asset ID quote: USDT
+Symbol ID: HITBTC_SPOT_XCLR_BTC
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: XCLR
+Asset ID quote: BTC
+Symbol ID: LIVECOIN_SPOT_GIFT_BTC
+Exchange ID: LIVECOIN
+Symbol type: SPOT
+Asset ID base: GIFT
+Asset ID quote: BTC
+Symbol ID: LIVECOIN_SPOT_GIFT_ETH
+Exchange ID: LIVECOIN
+Symbol type: SPOT
+Asset ID base: GIFT
+Asset ID quote: ETH
+Symbol ID: BINANCE_SPOT_PHX_BTC
+Exchange ID: BINANCE
+Symbol type: SPOT
+Asset ID base: PHX
+Asset ID quote: BTC
+Symbol ID: BINANCE_SPOT_PHX_ETH
+Exchange ID: BINANCE
+Symbol type: SPOT
+Asset ID base: PHX
+Asset ID quote: ETH
+Symbol ID: BINANCE_SPOT_PHX_BNB
+Exchange ID: BINANCE
+Symbol type: SPOT
+Asset ID base: PHX
+Asset ID quote: BNB
+Symbol ID: LIVECOIN_SPOT_XCEL_BTC
+Exchange ID: LIVECOIN
+Symbol type: SPOT
+Asset ID base: XCEL
+Asset ID quote: BTC
+Symbol ID: LIVECOIN_SPOT_XCEL_ETH
+Exchange ID: LIVECOIN
+Symbol type: SPOT
+Asset ID base: XCEL
+Asset ID quote: ETH
+Symbol ID: WEXNZ_SPOT_XMR_BTC
+Exchange ID: WEXNZ
+Symbol type: SPOT
+Asset ID base: XMR
+Asset ID quote: BTC
+Symbol ID: WEXNZ_SPOT_XMR_ETH
+Exchange ID: WEXNZ
+Symbol type: SPOT
+Asset ID base: XMR
+Asset ID quote: ETH
+Symbol ID: WEXNZ_SPOT_XMR_RUB
+Exchange ID: WEXNZ
+Symbol type: SPOT
+Asset ID base: XMR
+Asset ID quote: RUB
+Symbol ID: YOBIT_SPOT_PAT_USD
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: PAT
+Asset ID quote: USD
+Symbol ID: YOBIT_SPOT_PAT_WAVES
+Exchange ID: YOBIT
+Symbol type: SPOT
+Asset ID base: PAT
+Asset ID quote: WAVES
+Symbol ID: OKEX_SPOT_TRX_OKB
+Exchange ID: OKEX
+Symbol type: SPOT
+Asset ID base: TRX
+Asset ID quote: OKB
+Symbol ID: ACX_SPOT_USDT_AUD
+Exchange ID: ACX
+Symbol type: SPOT
+Asset ID base: USDT
+Asset ID quote: AUD
+Symbol ID: BITFINEX_SPOT_MAN_ETH
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: MAN
+Asset ID quote: ETH
+Symbol ID: BITFINEX_SPOT_MAN_USD
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: MAN
+Asset ID quote: USD
+Symbol ID: BITFINEX_SPOT_XRA_ETH
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: XRA
+Asset ID quote: ETH
+Symbol ID: BITFINEX_SPOT_XRA_USD
+Exchange ID: BITFINEX
+Symbol type: SPOT
+Asset ID base: XRA
+Asset ID quote: USD
+Symbol ID: BINANCE_SPOT_HC_BTC
+Exchange ID: BINANCE
+Symbol type: SPOT
+Asset ID base: HC
+Asset ID quote: BTC
+Symbol ID: BINANCE_SPOT_HC_ETH
+Exchange ID: BINANCE
+Symbol type: SPOT
+Asset ID base: HC
+Asset ID quote: ETH
+Symbol ID: BITTREX_SPOT_ETC_USD
+Exchange ID: BITTREX
+Symbol type: SPOT
+Asset ID base: ETC
+Asset ID quote: USD
+Symbol ID: BITTREX_SPOT_XRP_USD
+Exchange ID: BITTREX
+Symbol type: SPOT
+Asset ID base: XRP
+Asset ID quote: USD
+Symbol ID: HITBTC_SPOT_BNB_BTC
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: BNB
+Asset ID quote: BTC
+Symbol ID: HITBTC_SPOT_BNB_ETH
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: BNB
+Asset ID quote: ETH
+Symbol ID: HITBTC_SPOT_BNB_USDT
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: BNB
+Asset ID quote: USDT
+Symbol ID: HITBTC_SPOT_GST_BTC
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: GST
+Asset ID quote: BTC
+Symbol ID: HITBTC_SPOT_GST_ETH
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: GST
+Asset ID quote: ETH
+Symbol ID: HITBTC_SPOT_GST_USDT
+Exchange ID: HITBTC
+Symbol type: SPOT
+Asset ID base: GST
+Asset ID quote: USDT
+Symbol ID: UPBIT_SPOT_ADA_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ADA
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_ADT_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ADT
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_ADX_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ADX
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_AID_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: AID
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_AMP_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: AMP
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_ANT_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ANT
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_ARDR_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ARDR
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_ARK_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ARK
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_BAT_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: BAT
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_BAY_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: BAY
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_BCH_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: BCH
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_BCPT_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: BCPT
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_BITB_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: BITB
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_BKX_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: BKX
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_BLK_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: BLK
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_BLOCK_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: BLOCK
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_BLT_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: BLT
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_BNT_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: BNT
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_BSD_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: BSD
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_BTG_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: BTG
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_BURST_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: BURST
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_CFI_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: CFI
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_CLOAK_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: CLOAK
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_CMCT_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: CMCT
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_CVC_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: CVC
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_DASH_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: DASH
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_DCR_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: DCR
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_DCT_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: DCT
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_DGB_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: DGB
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_DMT_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: DMT
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_DNT_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: DNT
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_DOGE_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: DOGE
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_DYN_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: DYN
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_EDG_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: EDG
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_EMC_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: EMC
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_EMC2_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: EMC2
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_ENG_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ENG
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_ETC_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ETC
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_ETH_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ETH
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_EXCL_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: EXCL
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_EXP_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: EXP
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_FCT_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: FCT
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_FTC_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: FTC
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_GAME_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: GAME
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_GBYTE_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: GBYTE
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_GNO_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: GNO
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_GNT_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: GNT
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_GRS_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: GRS
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_GTO_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: GTO
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_GUP_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: GUP
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_HMQ_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: HMQ
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_IGNIS_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: IGNIS
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_ION_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ION
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_IOP_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: IOP
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_KMD_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: KMD
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_KORE_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: KORE
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_LBC_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: LBC
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_LOOM_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: LOOM
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_LRC_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: LRC
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_LSK_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: LSK
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_LTC_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: LTC
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_LUN_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: LUN
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_MANA_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: MANA
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_MCO_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: MCO
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_MEME_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: MEME
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_MER_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: MER
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_MFT_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: MFT
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_MONA_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: MONA
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_MUE_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: MUE
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_NAV_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: NAV
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_NBT_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: NBT
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_NEO_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: NEO
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_NGC_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: NGC
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_NMR_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: NMR
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_NXS_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: NXS
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_NXT_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: NXT
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_OCN_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: OCN
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_OK_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: OK
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_OMG_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: OMG
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_PART_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: PART
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_PAY_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: PAY
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_PIVX_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: PIVX
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_POLY_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: POLY
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_POWR_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: POWR
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_PRO_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: PRO
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_PTOY_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: PTOY
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_QRL_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: QRL
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_QTUM_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: QTUM
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_RADS_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: RADS
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_RCN_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: RCN
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_RDD_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: RDD
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_REP_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: REP
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_RFR_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: RFR
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_RLC_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: RLC
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_RVN_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: RVN
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_RVR_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: RVR
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_SALT_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: SALT
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_SBD_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: SBD
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_SC_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: SC
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_SHIFT_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: SHIFT
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_SIB_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: SIB
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_SLS_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: SLS
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_SNT_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: SNT
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_SPHR_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: SPHR
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_SRN_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: SRN
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_STEEM_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: STEEM
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_STORJ_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: STORJ
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_STORM_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: STORM
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_STRAT_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: STRAT
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_SWT_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: SWT
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_SYNX_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: SYNX
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_SYS_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: SYS
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_TIX_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: TIX
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_TRX_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: TRX
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_TUBE_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: TUBE
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_TUSD_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: TUSD
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_TX_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: TX
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_UBQ_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: UBQ
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_UKG_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: UKG
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_UNB_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: UNB
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_UP_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: UP
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_VEE_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: VEE
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_VIA_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: VIA
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_VIB_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: VIB
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_VRC_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: VRC
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_VTC_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: VTC
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_WAVES_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: WAVES
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_WAX_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: WAX
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_WINGS_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: WINGS
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_XDN_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: XDN
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_XEL_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: XEL
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_XEM_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: XEM
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_XLM_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: XLM
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_XMR_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: XMR
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_XRP_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: XRP
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_XVG_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: XVG
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_XZC_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: XZC
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_ZEC_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ZEC
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_ZEN_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ZEN
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_ZRX_BTC
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ZRX
+Asset ID quote: BTC
+Symbol ID: UPBIT_SPOT_ADA_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ADA
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_ADX_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ADX
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_ANT_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ANT
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_BAT_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: BAT
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_BCH_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: BCH
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_BLT_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: BLT
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_BNT_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: BNT
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_BTG_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: BTG
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_CVC_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: CVC
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_DASH_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: DASH
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_DGB_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: DGB
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_DMT_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: DMT
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_ENG_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ENG
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_ETC_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ETC
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_FCT_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: FCT
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_GNO_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: GNO
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_GNT_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: GNT
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_GTO_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: GTO
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_LRC_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: LRC
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_LTC_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: LTC
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_MANA_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: MANA
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_MCO_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: MCO
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_NEO_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: NEO
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_NGC_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: NGC
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_OCN_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: OCN
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_OMG_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: OMG
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_PAY_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: PAY
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_POLY_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: POLY
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_POWR_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: POWR
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_QTUM_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: QTUM
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_REP_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: REP
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_RLC_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: RLC
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_SALT_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: SALT
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_SC_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: SC
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_SNT_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: SNT
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_SRN_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: SRN
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_STORM_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: STORM
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_STRAT_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: STRAT
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_TRX_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: TRX
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_TUSD_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: TUSD
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_UKG_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: UKG
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_VEE_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: VEE
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_VIB_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: VIB
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_WAVES_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: WAVES
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_WAX_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: WAX
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_XEM_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: XEM
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_XLM_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: XLM
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_XMR_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: XMR
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_XRP_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: XRP
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_ZEC_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ZEC
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_ZRX_ETH
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ZRX
+Asset ID quote: ETH
+Symbol ID: UPBIT_SPOT_ADA_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ADA
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_ADT_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ADT
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_ADX_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ADX
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_ARDR_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ARDR
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_ARK_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ARK
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_BAT_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: BAT
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_BCH_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: BCH
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_BTC_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: BTC
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_BTG_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: BTG
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_CVC_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: CVC
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_DASH_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: DASH
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_DCR_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: DCR
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_DMT_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: DMT
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_EMC2_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: EMC2
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_EOS_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: EOS
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_ETC_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ETC
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_ETH_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ETH
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_GNT_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: GNT
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_GRS_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: GRS
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_GTO_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: GTO
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_ICX_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ICX
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_IGNIS_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: IGNIS
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_IOST_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: IOST
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_IOTA_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: IOTA
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_IQ_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: IQ
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_KMD_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: KMD
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_LOOM_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: LOOM
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_LSK_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: LSK
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_LTC_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: LTC
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_MCO_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: MCO
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_MER_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: MER
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_MTL_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: MTL
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_NEO_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: NEO
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_OMG_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: OMG
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_ONT_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ONT
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_OST_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: OST
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_PIVX_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: PIVX
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_POLY_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: POLY
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_POWR_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: POWR
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_QTUM_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: QTUM
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_REP_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: REP
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_RFR_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: RFR
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_SBD_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: SBD
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_SC_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: SC
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_SNT_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: SNT
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_SRN_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: SRN
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_STEEM_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: STEEM
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_STORJ_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: STORJ
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_STORM_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: STORM
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_STRAT_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: STRAT
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_TIX_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: TIX
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_TRX_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: TRX
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_VTC_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: VTC
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_WAVES_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: WAVES
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_XEM_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: XEM
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_XLM_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: XLM
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_XMR_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: XMR
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_XRP_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: XRP
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_ZEC_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ZEC
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_ZIL_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ZIL
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_ZRX_KRW
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ZRX
+Asset ID quote: KRW
+Symbol ID: UPBIT_SPOT_ADA_USDT
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ADA
+Asset ID quote: USDT
+Symbol ID: UPBIT_SPOT_BCH_USDT
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: BCH
+Asset ID quote: USDT
+Symbol ID: UPBIT_SPOT_BTC_USDT
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: BTC
+Asset ID quote: USDT
+Symbol ID: UPBIT_SPOT_BTG_USDT
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: BTG
+Asset ID quote: USDT
+Symbol ID: UPBIT_SPOT_DASH_USDT
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: DASH
+Asset ID quote: USDT
+Symbol ID: UPBIT_SPOT_DCR_USDT
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: DCR
+Asset ID quote: USDT
+Symbol ID: UPBIT_SPOT_DGB_USDT
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: DGB
+Asset ID quote: USDT
+Symbol ID: UPBIT_SPOT_ETC_USDT
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ETC
+Asset ID quote: USDT
+Symbol ID: UPBIT_SPOT_ETH_USDT
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ETH
+Asset ID quote: USDT
+Symbol ID: UPBIT_SPOT_LTC_USDT
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: LTC
+Asset ID quote: USDT
+Symbol ID: UPBIT_SPOT_NEO_USDT
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: NEO
+Asset ID quote: USDT
+Symbol ID: UPBIT_SPOT_NXT_USDT
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: NXT
+Asset ID quote: USDT
+Symbol ID: UPBIT_SPOT_OMG_USDT
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: OMG
+Asset ID quote: USDT
+Symbol ID: UPBIT_SPOT_SC_USDT
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: SC
+Asset ID quote: USDT
+Symbol ID: UPBIT_SPOT_TRX_USDT
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: TRX
+Asset ID quote: USDT
+Symbol ID: UPBIT_SPOT_TUSD_USDT
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: TUSD
+Asset ID quote: USDT
+Symbol ID: UPBIT_SPOT_XMR_USDT
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: XMR
+Asset ID quote: USDT
+Symbol ID: UPBIT_SPOT_XRP_USDT
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: XRP
+Asset ID quote: USDT
+Symbol ID: UPBIT_SPOT_XVG_USDT
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: XVG
+Asset ID quote: USDT
+Symbol ID: UPBIT_SPOT_ZEC_USDT
+Exchange ID: UPBIT
+Symbol type: SPOT
+Asset ID base: ZEC
+Asset ID quote: USDT
+Time: 2018-08-21T13:07:00.0553957Z
+Base: BTC
+Quote: USD
+Rate: 6420.750221076636
+Time: 2017-05-15T23:59:59.2799950Z
+Base: BTC
+Quote: USD
+Rate: 1729.9672565639196
