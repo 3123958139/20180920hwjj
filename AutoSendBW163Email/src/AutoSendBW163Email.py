@@ -28,10 +28,10 @@ class AutoSendBW163Email(object):
     def _start(self):
         self._con = self._engine.connect()
 
-    def _xls_to_mysql(self, xls='BW1_NETVALUE.xlsx', sheetName='BW1'):
+    def _xls_to_mysql(self, xls='BW_NETVALUE.xlsx', sheetNameBW1='BW1'):
         '''临时性的将excel的数据导入到mysql，只做一次
         '''
-        df = pd.read_excel(io=xls, sheet_name=sheetName)
+        df = pd.read_excel(io=xls, sheet_name=sheetNameBW1)
         df.to_sql('BW1_NETVALUE', con=self._con, schema='david', index=False, if_exists='replace', chunksize=500)
 
     def _update_sql_netvalue(self, given={}, day='2018-09-20 00:00:00'):
@@ -61,35 +61,43 @@ class AutoSendBW163Email(object):
         ASSET_TOTAL = df['total_account_usdtvalue'].values[0]
 
         query = """
-        SELECT
-	        AVG( usdt / btc ) AS btc_usdt
-        FROM
-	        david.BW1_BASE_DATA 
-        WHERE
-            usdt > 1000 
-            AND ts = '%s';
+        SELECT AVG(usdt/btc) AS btc_usdt FROM david.BW1_BASE_DATA WHERE usdt > 1000 AND ts = '%s';
         """ % df['ts'].astype(str).values[0]
         df = pd.read_sql(query, self._con)
-        BTC_USDT = df['btc_usdt'].values[0]       
+        BTC_USDT = df['btc_usdt'].values[0]
 
         df = pd.read_sql_table('BW1_NETVALUE', self._con, schema='david')
         SHARE_TOTAL      = df['share_change'].sum()+SHARE_CHANGE
         INVESTMENT_TOTAL = df['investment_change'].sum()+INVESTMENT_CHANGE
-        MANAGEMENT_FEE   = df['asset_net'].values[-1]*2/100/365
-        ASSET_NET        = ASSET_TOTAL-df['management_fees'].sum()-MANAGEMENT_FEE
+        MANAGEMENT_FEES   = df['asset_net'].values[-1]*2/100/365
+        ASSET_NET        = ASSET_TOTAL-df['management_fees'].sum()-MANAGEMENT_FEES
         UNITNET_USDT     = ASSET_NET/ASSET_TOTAL
         UNITNET_BTC      = BTC_USDT/df[df['date']=='2018-04-23 00:00:00']['btc_usdt'].values[0]
         PROFIT_DAY       = UNITNET_USDT/df['btc_usdt'].values[-1]-1
         PROFIT_TOTAL     = (UNITNET_USDT-df[df['date']=='2018-04-23 00:00:00']['unitnet_usdt'].values[0])*100
 
         # 如果是手动更新，可以直接写一条记录出来或者在
-        sql_update_data = [DATE, UNITNET_USDT, UNITNET_BTC, PROFIT_DAY, PROFIT_TOTAL, INVESTMENT_TOTAL, INVESTMENT_CHANGE, SHARE_TOTAL, SHARE_CHANGE, ASSET_TOTAL, ASSET_NET, MANAGEMENT_FEE, BTC_USDT]
-        print('[DATE, UNITNET_USDT, UNITNET_BTC, PROFIT_DAY, PROFIT_TOTAL, INVESTMENT_TOTAL, INVESTMENT_CHANGE, SHARE_TOTAL, SHARE_CHANGE, ASSET_TOTAL, ASSET_NET, MANAGEMENT_FEE, BTC_USDT]\n', sql_update_data)
+        sql_update_dict = {
+            'date'             : DATE,
+            'unitnet_usdt'     : UNITNET_USDT,
+            'unitnet_btc'      : UNITNET_BTC,
+            'profit_day'       : PROFIT_DAY,
+            'profit_total'     : PROFIT_TOTAL,
+            'investment_total' : INVESTMENT_TOTAL,
+            'investment_change': INVESTMENT_CHANGE,
+            'share_total'      : SHARE_TOTAL,
+            'share_change'     : SHARE_CHANGE,
+            'asset_total'      : ASSET_TOTAL,
+            'asset_net'        : ASSET_NET,
+            'management_fees'  : MANAGEMENT_FEES,
+            'btc_usdt'         : BTC_USDT,
+        }
+        sql_update_df = pd.DataFrame(sql_update_dict, index=[0])
+        print(sql_update_df)
 
 
 
-
-    def _fill_sql_netvalue(self, day=''):
+    def _fill_sql_netvalue(self, given={}, day=''):
         '''该函数用于填充期间缺失的
         '''
         # 思路是假设传入的day是current day，然后调用函数进行更新
@@ -111,14 +119,12 @@ class AutoSendBW163Email(object):
         grouper = pd.Grouper(key='date', freq='1D')
         df_ffill = df.groupby(grouper).first().ffill().reset_index()
         date_lost = sorted(list(set(df_ffill['date'].astype(str).values)-set(df['date'].astype(str).values)))
-
         if len(date_lost) > 0:
             for d in date_lost:
                 try:
                     self._fill_sql_netvalue(d)
                 except Exception as e:
                     raise e
-
         query = """SELECT date, unitnet_usdt, unitnet_btc FROM david.BW1_NETVALUE ORDER BY date;
         """
         return pd.read_sql(query, self._con)
